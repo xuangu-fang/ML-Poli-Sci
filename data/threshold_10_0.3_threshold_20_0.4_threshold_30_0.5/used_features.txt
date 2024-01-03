@@ -1,72 +1,72 @@
-blackInfluence_Politics
-powerDifference
-votingMakedifference
-bisexalFamilyorFriends
-therm_Christians
-satisfactionDemocracy
-follow_political_info
-howOftenTrust
-therm_Mislims
-sex_orientation
-satisfactionLife
-living_withFamily
-meetingCommuntySchool
-workedWithcommunity
-VCF9022
-authoritarian2
-authoritarian4
-authoritarian1
-authoritarian3
-have_healthInsurance
-volunteer
-bornAgain
-therm_ChrFundament
-VCF0886
-church_attendance
-Voted_party
-therm_hispanics
-VCF9029
-VCF0890
-VCF9031
-VCF9028
-approve_president_economy
-Vote_Nonvote_Pres
-approve_pres_strength
-therm_RepParty
-therm_DemParty
-Pre_election_inten_vote
-therm_Whites
-Will_PresElectionClose
-therm_liberals
-therm_conservatives
-therm_Blacks
-ideology7
-approve_pres
-VCF9030c
-VCF9030b
-Registered_voted
-VCF9030a
-VCF0130
-VCF9030
-home_ownership
-VCF0720
-VCF0721
-VCF0719
-VCF0718
-VCF0717
-Voted
-Family_income
-Interest_elections
-Age
-region
-South
-Party_id3
-Party_id7
-Race4
-Race3
-Race7
-education6
-education7
-Education4
-Gender
-Year
+blackInfluence_Politics (In American politics, do blacks have too much, about the right amount of, or too little influence)
+powerDifference (CSES: Make big difference who is in power (5pt) scale placement for R)
+votingMakedifference (CSES: Who votes for makes a big diffence - (5pt) scale placement for R)
+bisexalFamilyorFriends (Does R know anyone among family and friends who is bisexual or gay)
+therm_Christians (Thermometer for: Christians)
+satisfactionDemocracy (CSES: How satisfied is R with the way democracy works in the U.S. (4cat: very satisfied-not at all satisfied))
+follow_political_info (How often does R follow information about politics and government)
+howOftenTrust (How often can R trust people)
+therm_Mislims (Thermometer for: Muslims)
+sex_orientation (Does R consider self to be heterosexual or straight, homosexual or [gay/lesbian], or bisexual)
+satisfactionLife (How satisfied is R with R's life)
+living_withFamily (Is R living with family members)
+meetingCommuntySchool (Did R attend a meeting about an issue in community or schools during the past 12 months)
+workedWithcommunity (Has R worked with others to deal with issue in community during the past 12 months)
+VCF9022 (Voter Strength of Preference- Presidential Cand)
+authoritarian2 (Which is more important for a child to have: obedience or self-reliance)
+authoritarian4 (Which is more important for a child to have: independence or respect for elders)
+authoritarian1 (Which is more important for a child to have: curiosity or good manners)
+authoritarian3 (Which is more important for a child to be: considerate or well-behaved)
+have_healthInsurance (Does R have any (1994: some) kind of health insurance)
+volunteer (Was R able to devote any time to volunteer work in the last 12 months)
+bornAgain (Would R call self a born-again Christian /consider self a born-again Christian / had the deep religious experience described as being born again)
+therm_ChrFundament (Thermometer - Christian Fundamentalists)
+VCF0886 (Federal Spending- Poor/Poor People)
+church_attendance (Respondent - Church Attendance 1990-)
+Voted_party (Vote for President- Major Candidates)
+therm_hispanics (Thermometer - Chicanos/Hispanics)
+VCF9029 (Which Presidential Race in State Be Close)
+VCF0890 (Federal Spending- Public Schools)
+VCF9031 (Contacted By Anyone Other than Parties)
+VCF9028 (Which Presidential Candidate Will Win in State)
+approve_president_economy (Approve of President Performance on Economy)
+Vote_Nonvote_Pres (Vote and Nonvote- President)
+approve_pres_strength (Strength Approve/Disapprove President Performance)
+therm_RepParty (Thermometer - Republican Party)
+therm_DemParty (Thermometer - Democratic Party)
+Pre_election_inten_vote (Respondent Pre-election Intent for Vote for President)
+therm_Whites (Thermometer - Whites)
+Will_PresElectionClose (Will the Presidential Election Be Close)
+therm_liberals (Thermometer - Liberals)
+therm_conservatives (Thermometer - Conservatives)
+therm_Blacks (Thermometer - Blacks)
+ideology7 (Liberal-Conservative Scale)
+approve_pres (Approve of President Performance)
+VCF9030c (Contacted By Republican Party)
+VCF9030b (Contacted By Democratic Party)
+Registered_voted (Register and Turnout SUMMARY)
+VCF9030a (Contacted By Any Major Party)
+VCF0130 (Respondent - Church Attendance 1970-)
+VCF9030 (Contacted By Which Major Party)
+home_ownership (Respondent Family - Home Ownership)
+VCF0720 (Respondent Display Candidate Button/Sticker During the Campaign)
+VCF0721 (Respondent Donate Money to Party or Candidate During the Campaign)
+VCF0719 (Respondent Work for Party or Candidate During the Campaign)
+VCF0718 (Respondent Attend Political Meetings/Rallies During the Campaign)
+VCF0717 (Respondent Try to Influence the Vote of Others During the Campaign)
+Voted (Did Respondent Vote in the National Elections)
+Family_income (Respondent Family - Income Group)
+Interest_elections (Interest in the Elections)
+Age (Respondent - Age)
+region (Census Region)
+South (Political South/Nonsouth)
+Party_id3 (Party Identification of Respondent- Summary 3-Category)
+Party_id7 (Party Identification of Respondent- 7-point Scale)
+Race4 (Race-ethnicity summary, 4 categories)
+Race3 (Race summary, 3 categories)
+Race7 (Race-ethnicity summary, 7 categories)
+education6 (Respondent - Education 6-category)
+education7 (Respondent - Education 7-category)
+Education4 (Respondent - Education 4-category)
+Gender (Respondent - Gender)
+Year (Year of Study)
