@@ -170,7 +170,6 @@ def group_split_race7(data_new):
     # print(data_new['Race3'].value_counts())
 
     # print(data_new['Race7'].value_counts())
-<<<<<<< HEAD
 
     data_race7_dict={}
     data_race7_dict['White'] = data_new[data_new['Race7'] == 1]
@@ -269,45 +268,3 @@ def cross_validation(X, Y, model, k = 5):
         roc_auc_list.append(roc_auc_score(y_test, y_pred))
         importance_list.append(model.coef_[0])
     return accuracy_list, recall_list, precision_list, f1_list, roc_auc_list, importance_list
-=======
-
-    data_race7_dict={}
-    data_race7_dict['White'] = data_new[data_new['Race7'] == 1]
-    data_race7_dict['Black'] = data_new[data_new['Race7'] == 2]
-    data_race7_dict['Asian'] = data_new[data_new['Race7'] == 3]
-    data_race7_dict['American_Indian'] = data_new[data_new['Race7'] == 4]
-    data_race7_dict['Hispanic'] = data_new[data_new['Race7'] == 5]
-    data_race7_dict['Other'] = data_new[(data_new['Race7'] == 6) | (data_new['Race7'] == 7) | (data_new['Race7'] == 9)]
-
-    print('number of samples of White: ', len(data_race7_dict['White']))
-    print('number of samples of Black: ', len(data_race7_dict['Black']))
-    print('number of samples of Asian: ', len(data_race7_dict['Asian']))
-    print('number of samples of American_Indian: ', len(data_race7_dict['American_Indian']))
-    print('number of samples of Hispanic: ', len(data_race7_dict['Hispanic']))
-    print('number of samples of Other: ', len(data_race7_dict['Other']))
-
-    return data_race7_dict
-
-
-
-def get_feature_name_category_name(string, enc, value_label_dict):
-    feature_id = int(string.split('_')[0][1:])
-    category_index = int(float(string.split('_')[1]))
-
-    feature_name = enc.feature_names_in_[feature_id]
-
-    if category_index == -1:
-        category_name = 'Missing'
-    else:
-        category_name = value_label_dict[feature_name][category_index]
-
-    return feature_name, category_name
-
-def enc_feature_list(initial_list, enc, value_label_dict):
-    new_list = []
-
-    for string in initial_list:
-        feature_name, category_name = get_feature_name_category_name(string, enc, value_label_dict)
-        new_list.append((feature_name+'_'+ category_name))
-    return new_list
->>>>>>> bf97fb1b78e8a2d137411d592d573ef42da69295

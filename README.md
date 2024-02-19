@@ -9,6 +9,27 @@ Missing value imputation-sklearn:https://scikit-learn.org/stable/modules/impute.
 
 ## log
 
+2024 Feb:
+
+- get some  hypotheses to verify(based on "urban-rural"-feature, not miss out!): 
+
+    - Blacks in urban America are more likely to vote and vote for the Democratic candidates than are Blacks in rural America.
+ 
+    - Blacks in suburban America are more likely to vote for the Republican candidates than are Blacks in urban America.
+ 
+    - Whites in rural America are more likely to vote Republicans than are Whites in urban or suburban America.
+ 
+    - White non-voters are more likely to live in rural American than in urban America.
+
+- state-based analysis: focus on WA
+
+- foucus on final non-voters who intend to vote
+
+- after feature filter-out, check the performance with only top-5/10/20 features 
+
+
+
+
 2024 Jan 3rd: 
 
 - finish the feature filtering: set the missing-ratio  in recent 20 years as the threshold, and remove the features with missing ratio larger than 0.3-done
