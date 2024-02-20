@@ -1,16 +1,16 @@
 feature,importance
-ideology7_7. Extremely conservative,0.9612658396086664
-"Pre_election_inten_vote_1. Democratic candidate (with or without qualifications,",0.7191705820035519
-ideology7_6. Conservative,0.6475294995740983
-VCF0721_2. Yes (includes 'tax check-off' in 1976),0.6300998305643464
-have_healthInsurance_1. Yes,0.6172283579458694
-Pre_election_inten_vote_3. Undecided; DK (except 1964),0.6022816873561494
-"Pre_election_inten_vote_2. Republican candidate (with or without qualifications,",0.5672102371769256
-authoritarian1_2. Both (VOL),0.5563858178325451
-VCF0130_Missing,0.5064781515911102
-education7_6. BA level degrees,0.47823212847842633
-approve_president_economy_Missing,0.47720314267439895
-VCF9028_3. Other Pres. candidate,0.4719695993482557
-"approve_pres_strength_4. Disapprove, strongly",0.4516673499924413
-Age,0.4205493338782308
-Will_PresElectionClose_1. Will win by quite a bit,0.37403736827752265
+ideology7_7. Extremely conservative,0.8953893554913114
+have_healthInsurance_1. Yes,0.7869470833491223
+"urbanism_3. Rural, small towns, outlying and adjacent areas",0.7343509127916115
+"Pre_election_inten_vote_1. Democratic candidate (with or without qualifications,",0.7167831019699288
+ideology7_6. Conservative,0.6660263507340435
+VCF0721_2. Yes (includes 'tax check-off' in 1976),0.6376738561222928
+authoritarian1_2. Both (VOL),0.6247072019234514
+Pre_election_inten_vote_3. Undecided; DK (except 1964),0.6091353631101214
+"Pre_election_inten_vote_2. Republican candidate (with or without qualifications,",0.5587945501278607
+VCF0130_Missing,0.5063603015192196
+VCF9028_3. Other Pres. candidate,0.49315167653488945
+education7_6. BA level degrees,0.4818662768204086
+approve_president_economy_Missing,0.47961668848067907
+"approve_pres_strength_4. Disapprove, strongly",0.44483049407672703
+Age,0.4167251886577015

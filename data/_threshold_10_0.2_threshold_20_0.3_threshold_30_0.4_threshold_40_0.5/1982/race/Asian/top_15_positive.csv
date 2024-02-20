@@ -1,16 +1,16 @@
 feature,importance
-"Pre_election_inten_vote_1. Democratic candidate (with or without qualifications,",1.1281765380566795
-Education4_1. Grade school or less (0-8 grades); 2020: less than high school credential,0.8695485301980354
-Party_id7_1. Strong Democrat,0.8399890440267305
-Party_id7_7. Strong Republican,0.837890201562954
-"Pre_election_inten_vote_2. Republican candidate (with or without qualifications,",0.8193257589140698
-Pre_election_inten_vote_3. Undecided; DK (except 1964),0.7864846696752175
-Family_income_Missing,0.6621496624322292
-VCF0130_3. Once or twice a month,0.6569921531981298
-VCF9030a_Missing,0.5278874614621611
-ideology7_5. Slightly conservative,0.522071651844459
-VCF0890_8.   DK,0.5220563951353225
-authoritarian3_1. Being considerate,0.48659784948364165
-"region_4. West (AK, AZ, CA, CO, HI, ID, MT, NV, NM, OR, UT, WA,",0.4535528428316529
-Interest_elections_3. Very much interested,0.3896846793173813
-approve_president_economy_1. Approve strongly,0.3787549533318167
+"Pre_election_inten_vote_1. Democratic candidate (with or without qualifications,",1.1256322030262065
+Education4_1. Grade school or less (0-8 grades); 2020: less than high school credential,0.864715334828712
+Party_id7_1. Strong Democrat,0.8348456746038975
+Party_id7_7. Strong Republican,0.8279477716801509
+"Pre_election_inten_vote_2. Republican candidate (with or without qualifications,",0.7972148807846764
+Pre_election_inten_vote_3. Undecided; DK (except 1964),0.777930215234759
+Family_income_Missing,0.7061011832552898
+VCF0130_3. Once or twice a month,0.6592385812029662
+VCF9030a_Missing,0.5389787302303096
+VCF0890_8.   DK,0.5293121649386426
+authoritarian3_1. Being considerate,0.49949790974097086
+ideology7_5. Slightly conservative,0.48811272511555914
+"region_4. West (AK, AZ, CA, CO, HI, ID, MT, NV, NM, OR, UT, WA,",0.4573108207217273
+Interest_elections_3. Very much interested,0.39942981680289935
+have_healthInsurance_1. Yes,0.3752647708212743

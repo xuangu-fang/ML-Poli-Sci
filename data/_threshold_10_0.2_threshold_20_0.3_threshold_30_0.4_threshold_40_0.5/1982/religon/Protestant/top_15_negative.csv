@@ -1,16 +1,16 @@
 feature,importance
-"Pre_election_inten_vote_4. R does not intend to vote (incl. 'no, qualified' if",-2.6374032230070314
-Pre_election_inten_vote_Missing,-0.7356219827869586
-Interest_elections_1. Not much interested,-0.6080152858754507
-Family_income_1. 0 to 16 percentile,-0.47001016511552846
-VCF9030_7. No contact,-0.469920789822108
-education7_1. 8 grades or less ('grade school'),-0.45664235462080616
-education6_1. 8 grades or less ('grade school'),-0.45664235462080616
-VCF0717_1. No,-0.3911352208913225
-Will_PresElectionClose_Missing,-0.33892508564299567
-"region_3. South (AL, AR, DE, D.C., FL, GA, KY, LA, MD, MS, NC",-0.32632304653552974
-VCF0130_Missing,-0.3262759223535142
-VCF0720_1. No,-0.3193340021461196
-"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",-0.2963504365009886
-"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",-0.2963504365009886
-"VCF9030_5. Yes, contact: DK which party",-0.28777176596978454
+"Pre_election_inten_vote_4. R does not intend to vote (incl. 'no, qualified' if",-2.635378552346748
+Pre_election_inten_vote_Missing,-0.7354846022943076
+Interest_elections_1. Not much interested,-0.607310120278074
+Family_income_1. 0 to 16 percentile,-0.47026350518925353
+VCF9030_7. No contact,-0.46661482157319956
+education6_1. 8 grades or less ('grade school'),-0.45220400790789056
+education7_1. 8 grades or less ('grade school'),-0.45220400790789056
+VCF0717_1. No,-0.38755458693824524
+Will_PresElectionClose_Missing,-0.34877732567226205
+VCF0130_Missing,-0.33444301963132483
+"region_3. South (AL, AR, DE, D.C., FL, GA, KY, LA, MD, MS, NC",-0.3263772118988256
+VCF0720_1. No,-0.3175951638801681
+"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",-0.2957354864605429
+"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",-0.2957354864605429
+"VCF9030_5. Yes, contact: DK which party",-0.28858531881917254

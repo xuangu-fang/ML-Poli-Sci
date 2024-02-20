@@ -61,7 +61,7 @@ def missing_value_analysis(data):
     return missing_value
 
 
-def feature_filter(data, missing_ratio_thr,column_to_variable_dict):
+def feature_filter(data, missing_ratio_thr,column_to_variable_dict, must_include_list=None):
     """filter out the features based on the given thresholds of missing ratios and years"""
 
     missing_value = missing_value_analysis(data)
@@ -90,12 +90,20 @@ def feature_filter(data, missing_ratio_thr,column_to_variable_dict):
 
     # save the used features names (row names) and the variable names
     used_features = missing_value_used.index.tolist()
+
+    not_used_features = missing_value_not_used.index.tolist()
+
+    for feature in must_include_list:
+        if feature not in used_features:
+            used_features.append(feature)
+            not_used_features.remove(feature)
+    
     with open(folder_name + '/used_features.txt', 'w') as f:
         for item in used_features:
             f.write("%s (%s)\n" % (item, column_to_variable_dict[item]))
 
     # save the not used features names (row names)
-    not_used_features = missing_value_not_used.index.tolist()
+    
     with open(folder_name + '/not_used_features.txt', 'w') as f:
         for item in not_used_features:
             f.write("%s (%s)\n" % (item, column_to_variable_dict[item]))

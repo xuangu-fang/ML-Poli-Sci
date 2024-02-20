@@ -1,16 +1,16 @@
 feature,importance
-VCF0890_8.   DK,0.7081729197707167
-VCF9031_Missing,0.6839837184645068
-Party_id7_7. Strong Republican,0.6143729885538348
-Age,0.4953145305761252
-Interest_elections_3. Very much interested,0.46659027288921145
-Party_id7_1. Strong Democrat,0.45859197078200964
-volunteer_Missing,0.4069166002314869
-"Pre_election_inten_vote_1. Democratic candidate (with or without qualifications,",0.3995672967148908
-VCF0130_1. Every week (Except 1970: almost every week),0.3598909638227814
-VCF0886_2.   Same,0.32131374948508673
-ideology7_2. Liberal,0.3157154950407194
-Family_income_5. 96 to 100 percentile,0.2887255176875444
-Pre_election_inten_vote_9. Other candidate,0.2863190732156237
-Family_income_4. 68 to 95 percentile,0.267630663385593
-"region_2. North Central (IL, IN, IA, KS, MI, MN, MO, NE, ND,",0.26460198687459247
+VCF0890_8.   DK,0.7222455390026882
+Party_id7_7. Strong Republican,0.6043210040046242
+VCF9031_Missing,0.5631073174820475
+Age,0.49541449627865186
+Interest_elections_3. Very much interested,0.468929256669311
+Party_id7_1. Strong Democrat,0.45742357060385047
+volunteer_Missing,0.4197327451047343
+"Pre_election_inten_vote_1. Democratic candidate (with or without qualifications,",0.40595171855755385
+VCF0130_1. Every week (Except 1970: almost every week),0.348413878098816
+VCF0886_2.   Same,0.32092247744308067
+ideology7_2. Liberal,0.31255566217149194
+Family_income_5. 96 to 100 percentile,0.3084483157949912
+Pre_election_inten_vote_9. Other candidate,0.2901580316601552
+Family_income_4. 68 to 95 percentile,0.27340811080841887
+"region_2. North Central (IL, IN, IA, KS, MI, MN, MO, NE, ND,",0.26318798333188526

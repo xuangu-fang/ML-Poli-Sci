@@ -1,16 +1,16 @@
 feature,importance
-"Pre_election_inten_vote_4. R does not intend to vote (incl. 'no, qualified' if",-2.3467210224560753
-Pre_election_inten_vote_Missing,-0.8472853952516815
-"Education4_2. High school (12 grades or fewer, incl. non-college",-0.728369115133915
-VCF0886_1.   Increased,-0.685902231746328
-ideology7_7. Extremely conservative,-0.6636898555417112
-approve_pres_8. DK,-0.6539894751091417
-Family_income_2. 17 to 33 percentile,-0.5455723696746766
-VCF0890_3.   Decreased (before 2012: or cut out entirely),-0.40077031951889613
-"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",-0.37838713379685524
-"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",-0.37838713379685524
-VCF0717_1. No,-0.377775050825767
-meetingCommuntySchool_1. Yes,-0.3391327313782978
-VCF0130_5. Never (1990 and later: 'No' in filter),-0.33110258731551834
-"region_1. Northeast (CT, ME, MA, NH, NJ, NY, PA, RI, VT)",-0.32158690865521267
-approve_pres_strength_8. DK,-0.3160913944356289
+"Pre_election_inten_vote_4. R does not intend to vote (incl. 'no, qualified' if",-2.3583369981420086
+Pre_election_inten_vote_Missing,-0.842633050344498
+"Education4_2. High school (12 grades or fewer, incl. non-college",-0.7196568177194205
+VCF0886_1.   Increased,-0.6875620536320362
+ideology7_7. Extremely conservative,-0.6615026917906863
+approve_pres_8. DK,-0.6420124093198073
+Family_income_2. 17 to 33 percentile,-0.5503212741691316
+VCF0890_3.   Decreased (before 2012: or cut out entirely),-0.399907445282205
+"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",-0.3882950799958249
+"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",-0.3882950799958249
+VCF0717_1. No,-0.3871964907138419
+VCF0130_5. Never (1990 and later: 'No' in filter),-0.33604095208289386
+"region_1. Northeast (CT, ME, MA, NH, NJ, NY, PA, RI, VT)",-0.32455904236221556
+authoritarian1_2. Both (VOL),-0.31265393515617446
+approve_pres_strength_8. DK,-0.31051866650380444

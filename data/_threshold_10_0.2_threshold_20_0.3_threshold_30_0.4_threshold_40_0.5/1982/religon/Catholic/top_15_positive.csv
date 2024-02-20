@@ -1,16 +1,16 @@
 feature,importance
-Family_income_5. 96 to 100 percentile,0.6190155662979016
-VCF0890_8.   DK,0.5701916547922948
-"Pre_election_inten_vote_1. Democratic candidate (with or without qualifications,",0.5539352315717533
-approve_pres_strength_8. DK,0.5416824645129015
-Age,0.5260143588253557
-Interest_elections_3. Very much interested,0.5126355967260346
-Party_id7_7. Strong Republican,0.4601331041740453
-VCF9030a_Missing,0.4546691730781989
-VCF0130_1. Every week (Except 1970: almost every week),0.409056600253866
-Party_id7_1. Strong Democrat,0.37267308389187925
-VCF9031_Missing,0.36943009312873687
-"education6_5. Some college, no degree; junior/community college",0.3688447124045128
-"education7_5. Some college, no degree; junior/community college",0.3688447124045128
-"Pre_election_inten_vote_2. Republican candidate (with or without qualifications,",0.36710027091043823
-Pre_election_inten_vote_3. Undecided; DK (except 1964),0.34678714524102855
+Family_income_5. 96 to 100 percentile,0.6253699967064248
+VCF0890_8.   DK,0.5715076992279393
+"Pre_election_inten_vote_1. Democratic candidate (with or without qualifications,",0.5566361861622628
+approve_pres_strength_8. DK,0.5532577614846914
+Age,0.5270314130780739
+Interest_elections_3. Very much interested,0.5121507428463764
+Party_id7_7. Strong Republican,0.4588518069474488
+VCF9030a_Missing,0.4451477589007862
+VCF9031_Missing,0.4355312557535832
+VCF0130_1. Every week (Except 1970: almost every week),0.41008636494342354
+"education7_5. Some college, no degree; junior/community college",0.3733055696282834
+"education6_5. Some college, no degree; junior/community college",0.3733055696282834
+Party_id7_1. Strong Democrat,0.36978614891839073
+"Pre_election_inten_vote_2. Republican candidate (with or without qualifications,",0.36308648413153344
+Pre_election_inten_vote_3. Undecided; DK (except 1964),0.3520847225053275

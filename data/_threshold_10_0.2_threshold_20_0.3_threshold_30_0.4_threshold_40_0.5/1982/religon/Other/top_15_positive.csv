@@ -1,16 +1,16 @@
 feature,importance
-Gender_Missing,0.7532130983155604
-Pre_election_inten_vote_3. Undecided; DK (except 1964),0.7124663677294463
-meetingCommuntySchool_Missing,0.6860822889758109
-"Pre_election_inten_vote_1. Democratic candidate (with or without qualifications,",0.5117422973742917
-Interest_elections_3. Very much interested,0.47574161946136584
-Party_id7_1. Strong Democrat,0.4674348661116479
-"VCF9030a_1. Yes, contact by major party",0.45684833164868566
-approve_pres_strength_8. DK,0.44267667410923117
-VCF0130_Missing,0.41988661074684924
-Party_id7_7. Strong Republican,0.4076378533258117
-"VCF9030_4. Yes, contact: other",0.40621202510863236
-VCF0717_2. Yes,0.4010970889532125
-Age,0.3550205614813092
-Education4_4. College or advanced degree (no cases 1948),0.3413199516774018
-education6_6. BA level degrees; advanced degrees incl. LLB,0.3413199516774018
+meetingCommuntySchool_Missing,0.9058783656956209
+Pre_election_inten_vote_3. Undecided; DK (except 1964),0.7436116470930824
+Gender_Missing,0.712442947760621
+"Pre_election_inten_vote_1. Democratic candidate (with or without qualifications,",0.5057037075610792
+urbanism_Missing,0.5027861270165024
+Interest_elections_3. Very much interested,0.4701985575584736
+Party_id7_1. Strong Democrat,0.4588051082750052
+"VCF9030a_1. Yes, contact by major party",0.4573382172209827
+approve_pres_strength_8. DK,0.42534861989417205
+VCF9029_Missing,0.4098571292233175
+VCF0130_Missing,0.40816826704971365
+Party_id7_7. Strong Republican,0.4042062564954966
+"VCF9030_4. Yes, contact: other",0.3992285940385382
+VCF0717_2. Yes,0.3980069267563741
+Age,0.35500739489015576

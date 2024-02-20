@@ -1,16 +1,16 @@
 feature,importance
-"Pre_election_inten_vote_4. R does not intend to vote (incl. 'no, qualified' if",-2.2727689268552047
-Pre_election_inten_vote_Missing,-0.894459610140838
-Will_PresElectionClose_Missing,-0.8160053580551597
-ideology7_Missing,-0.5869837855548251
-VCF0720_1. No,-0.5049815541738546
-Family_income_1. 0 to 16 percentile,-0.4404431702447055
-Interest_elections_1. Not much interested,-0.41240901125965
-Gender_3. Other (2016),-0.40831647082381917
-education7_1. 8 grades or less ('grade school'),-0.3987960372373492
-education6_1. 8 grades or less ('grade school'),-0.3987960372373492
-workedWithcommunity_Missing,-0.37644455382949543
-VCF9029_8. DK; depends,-0.3748793561934286
-approve_pres_strength_Missing,-0.3201713156187576
-Family_income_2. 17 to 33 percentile,-0.2855129507398604
-Party_id3_2. Independents,-0.26763309155354165
+"Pre_election_inten_vote_4. R does not intend to vote (incl. 'no, qualified' if",-2.2741744657536227
+Will_PresElectionClose_Missing,-0.9860839783567392
+Pre_election_inten_vote_Missing,-0.9120511990855711
+ideology7_Missing,-0.5409433440829392
+VCF0720_1. No,-0.49934905704690136
+Family_income_1. 0 to 16 percentile,-0.44766340249913067
+Interest_elections_1. Not much interested,-0.4144416811097706
+Gender_3. Other (2016),-0.4068241433672056
+education7_1. 8 grades or less ('grade school'),-0.4016113011227264
+education6_1. 8 grades or less ('grade school'),-0.4016113011227264
+VCF9029_8. DK; depends,-0.37383215959125027
+approve_pres_strength_Missing,-0.3282028743118107
+urbanism_2. Suburban areas,-0.29944243226544554
+authoritarian3_Missing,-0.2872334477313418
+Family_income_2. 17 to 33 percentile,-0.2863723557072089
