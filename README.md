@@ -11,6 +11,10 @@ Missing value imputation-sklearn:https://scikit-learn.org/stable/modules/impute.
 
 2024 Feb:
 
+- 2024/2/23:
+ - add table for "intend to vote" but final "non-voter" for the white/black group in different area
+ - add year-based plotting for the changing ratio
+
 - get some  hypotheses to verify(based on "urban-rural"-feature, not miss out!): 
 
     - Blacks in urban America are more likely to vote and vote for the Democratic candidates than are Blacks in rural America.
