@@ -1,0 +1,5 @@
+Group,has_intent_feature_size,intent_to_vote_ratio,intent_to_vote_final_non_voter_ratio,intent_to_vote_R_final_non_voter_ratio,intent_to_vote_D_final_non_voter_ratio
+black_total,4517,79.08%,15.34%,1.96%,13.38%
+black_urban,1095,73.15%,14.98%,1.62%,13.36%
+black_suburban,398,66.83%,20.68%,3.01%,17.67%
+black_rural,579,58.89%,29.91%,6.74%,23.17%

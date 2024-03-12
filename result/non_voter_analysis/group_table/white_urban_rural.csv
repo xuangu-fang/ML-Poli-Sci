@@ -1,0 +1,5 @@
+Group,has_intent_feature_size,intent_to_vote_ratio,intent_to_vote_final_non_voter_ratio,intent_to_vote_R_final_non_voter_ratio,intent_to_vote_D_final_non_voter_ratio
+white_total,30209,79.28%,9.44%,5.17%,4.27%
+white_urban,3801,76.90%,9.48%,4.34%,5.13%
+white_suburban,6504,74.86%,8.75%,4.87%,3.88%
+white_rural,7073,72.50%,12.17%,6.90%,5.27%
