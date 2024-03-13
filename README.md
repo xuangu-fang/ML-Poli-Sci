@@ -9,7 +9,11 @@ Missing value imputation-sklearn:https://scikit-learn.org/stable/modules/impute.
 
 ## log
 
-2024 Feb:
+- 2024/3/12:
+    - save and finished almost all stat-based analysis
+    - start to build the feature-importance model (Log-Reg)
+    - focus on the "WA" state group
+
 
 - 2024/2/23:
  - add table for "intend to vote" but final "non-voter" for the white/black group in different area
