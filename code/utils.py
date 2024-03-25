@@ -222,7 +222,7 @@ def group_split_race7(data_new):
 #     return new_list
 def custom_combiner(feature, category):
     return str(feature) + "_XX_" + str(category)
-    
+
 def get_feature_name_category_name(string, enc, value_label_dict):
     # feature_id = int(string.split('_XX_')[0][1:])
     feature_name = string.split('_XX_')[0]
@@ -244,8 +244,6 @@ def enc_feature_list(initial_list, enc, value_label_dict):
         new_list.append((feature_name+'_'+ category_name))
     return new_list    
 
-def custom_combiner(feature, category):
-    return str(feature) + "_" + str(category)
 
 def feature_process(data, numerical_feature_list, categorical_feature_list, target_variable,value_label_dict):
     data_XY = data[numerical_feature_list + categorical_feature_list+[target_variable]]
@@ -267,7 +265,7 @@ def feature_process(data, numerical_feature_list, categorical_feature_list, targ
 
     X_categorical_transformed = enc.transform(X_categorical_imp).toarray()
 
-    initial_list = enc.get_feature_names().tolist()
+    initial_list = enc.get_feature_names_out().tolist()
     enc_categorical_feature_list = utils.enc_feature_list(initial_list, enc, value_label_dict)    
 
     #impute + process(normalize) the numerical features
