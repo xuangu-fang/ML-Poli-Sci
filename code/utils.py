@@ -61,7 +61,7 @@ def missing_value_analysis(data):
     return missing_value
 
 
-def feature_filter(data, missing_ratio_thr,column_to_variable_dict, must_include_list=None):
+def feature_filter(data, missing_ratio_thr,column_to_variable_dict, folder_name = '../data/',must_include_list=None):
     """filter out the features based on the given thresholds of missing ratios and years"""
 
     missing_value = missing_value_analysis(data)
@@ -72,7 +72,7 @@ def feature_filter(data, missing_ratio_thr,column_to_variable_dict, must_include
     all_conditions = True
     any_condition_not_met = False
     
-    folder_name = '../data/'
+    
     for i, threshold in enumerate(missing_ratio_thr):
         column_name = missing_value.columns[i + 2]  # 第n个阈值对应第n+2列
         current_condition = missing_value[column_name] < threshold
@@ -93,10 +93,11 @@ def feature_filter(data, missing_ratio_thr,column_to_variable_dict, must_include
 
     not_used_features = missing_value_not_used.index.tolist()
 
-    for feature in must_include_list:
-        if feature not in used_features:
-            used_features.append(feature)
-            not_used_features.remove(feature)
+    if must_include_list is not None:
+        for feature in must_include_list:
+            if feature not in used_features:
+                used_features.append(feature)
+                not_used_features.remove(feature)
     
     with open(folder_name + '/used_features.txt', 'w') as f:
         for item in used_features:
@@ -198,12 +199,35 @@ def group_split_race7(data_new):
 
 
 
+# def get_feature_name_category_name(string, enc, value_label_dict):
+#     feature_id = int(string.split('_')[0][1:])
+#     category_index = int(float(string.split('_')[1]))
+
+#     feature_name = enc.feature_names_in_[feature_id]
+    
+
+#     if category_index == -1:
+#         category_name = 'Missing'
+#     else:
+#         category_name = value_label_dict[feature_name][category_index]
+
+#     return feature_name, category_name
+
+# def enc_feature_list(initial_list, enc, value_label_dict):
+#     new_list = []
+
+#     for string in initial_list:
+#         feature_name, category_name = get_feature_name_category_name(string, enc, value_label_dict)
+#         new_list.append((feature_name+'_'+ category_name))
+#     return new_list
+def custom_combiner(feature, category):
+    return str(feature) + "_XX_" + str(category)
+    
 def get_feature_name_category_name(string, enc, value_label_dict):
-    feature_id = int(string.split('_')[0][1:])
-    category_index = int(float(string.split('_')[1]))
-
-    feature_name = enc.feature_names_in_[feature_id]
-
+    # feature_id = int(string.split('_XX_')[0][1:])
+    feature_name = string.split('_XX_')[0]
+    category_index = float(string.split('_XX_')[1])
+    
     if category_index == -1:
         category_name = 'Missing'
     else:
@@ -211,14 +235,17 @@ def get_feature_name_category_name(string, enc, value_label_dict):
 
     return feature_name, category_name
 
+
 def enc_feature_list(initial_list, enc, value_label_dict):
     new_list = []
 
     for string in initial_list:
         feature_name, category_name = get_feature_name_category_name(string, enc, value_label_dict)
         new_list.append((feature_name+'_'+ category_name))
-    return new_list
+    return new_list    
 
+def custom_combiner(feature, category):
+    return str(feature) + "_" + str(category)
 
 def feature_process(data, numerical_feature_list, categorical_feature_list, target_variable,value_label_dict):
     data_XY = data[numerical_feature_list + categorical_feature_list+[target_variable]]
@@ -234,7 +261,7 @@ def feature_process(data, numerical_feature_list, categorical_feature_list, targ
 
     X_categorical_imp = X_categorical.fillna(-1)
 
-    enc = OneHotEncoder(handle_unknown='ignore')
+    enc = OneHotEncoder(handle_unknown='ignore',feature_name_combiner=custom_combiner)
 
     enc.fit(X_categorical_imp)
 
