@@ -9,6 +9,14 @@ Missing value imputation-sklearn:https://scikit-learn.org/stable/modules/impute.
 
 ## log
 
+
+- 2024/3/26:
+    - model did not work well on "intend-vote" group due to the imbalance of the data
+    - try some imbalanced data handling methods, like SMOTE, ADASYN, and RandomOverSampler, but did not work well
+    - tried some advanced/non-linear models, like GBTtree, RBF-SVM, and ensemble models, like AdaBoost , but did not work well
+    - clean the code and add some comments
+
+
 - 2024/3/12:
     - save and finished almost all stat-based analysis
     - start to build the feature-importance model (Log-Reg)
