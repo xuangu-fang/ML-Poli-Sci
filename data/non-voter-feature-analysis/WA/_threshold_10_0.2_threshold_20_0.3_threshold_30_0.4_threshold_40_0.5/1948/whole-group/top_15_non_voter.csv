@@ -1,0 +1,16 @@
+feature,importance
+Interest_elections_1. Not much interested,1.10591406607417
+VCF0130_4. A few times a year,0.49116463689995404
+VCF0130_5. Never (1990 and later: 'No' in filter),0.41240793447209095
+Education4_1. Grade school or less (0-8 grades); 2020: less than high school credential,0.3765661828222028
+"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.3646881771515198
+"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.3646881771515198
+workedWithcommunity_2. No,0.32257470238739827
+ideology7_6. Conservative,0.3119091134545845
+Family_income_1. 0 to 16 percentile,0.3052892856950447
+meetingCommuntySchool_2. No,0.29002455573808933
+VCF0718_1. No,0.26343416623849364
+ideology7_2. Liberal,0.24802155537815093
+Family_income_2. 17 to 33 percentile,0.2296640899796151
+approve_president_economy_2. Approve not strongly,0.2271276539842953
+VCF0130_7. No religious preference (1970-1988),0.2199514738146641

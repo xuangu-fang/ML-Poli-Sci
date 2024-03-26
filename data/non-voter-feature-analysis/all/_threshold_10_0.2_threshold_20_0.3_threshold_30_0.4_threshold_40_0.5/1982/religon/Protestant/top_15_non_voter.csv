@@ -1,0 +1,16 @@
+feature,importance
+Interest_elections_1. Not much interested,0.7967491387195066
+Family_income_1. 0 to 16 percentile,0.5154902630670148
+VCF9030_7. No contact,0.5060306551662194
+VCF0717_1. No,0.47792832330617313
+education7_1. 8 grades or less ('grade school'),0.47529177857211485
+education6_1. 8 grades or less ('grade school'),0.47529177857211485
+"region_3. South (AL, AR, DE, D.C., FL, GA, KY, LA, MD, MS, NC",0.3322481786531159
+"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.3099514137386266
+"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.3099514137386266
+meetingCommuntySchool_2. No,0.2987228243096211
+VCF0130_5. Never (1990 and later: 'No' in filter),0.2880572169466402
+Family_income_2. 17 to 33 percentile,0.28166061699237577
+Party_id3_2. Independents,0.28113069719008543
+Party_id7_4. Independent - Independent,0.28113069719008543
+VCF0719_1. No,0.223782408486315

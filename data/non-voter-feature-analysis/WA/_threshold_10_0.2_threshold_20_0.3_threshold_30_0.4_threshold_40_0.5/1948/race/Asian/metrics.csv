@@ -1,0 +1,2 @@
+non-voter-ratio,accuracy,recall,precision,f1,roc_auc
+0.2631578947368421,0.5999999999999999,0.0,0.0,0.0,0.4121428571428571

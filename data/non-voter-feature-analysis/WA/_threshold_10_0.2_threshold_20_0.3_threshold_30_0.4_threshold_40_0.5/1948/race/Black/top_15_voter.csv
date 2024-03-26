@@ -1,0 +1,16 @@
+feature,importance
+Age,-0.9781113053781748
+have_healthInsurance_1. Yes,-0.5428978967040851
+therm_hispanics,-0.47741107159032514
+Family_income_3. 34 to 67 percentile,-0.37231655279570813
+authoritarian3_1. Being considerate,-0.3569025261326662
+VCF9029_3. Win by quite a bit,-0.14952472697882166
+VCF0718_2. Yes,-0.14264741594351166
+Interest_elections_3. Very much interested,-0.12333993831691323
+VCF0130_1. Every week (Except 1970: almost every week),-0.09904702129699217
+Will_PresElectionClose_2. Close race,-0.08750228265074703
+workedWithcommunity_1. Yes,-0.08705135755646072
+VCF0720_2. Yes,-0.08279478405635757
+education6_6. BA level degrees; advanced degrees incl. LLB,-0.0692066110214172
+Education4_4. College or advanced degree (no cases 1948),-0.0692066110214172
+VCF0721_2. Yes (includes 'tax check-off' in 1976),-0.06787996924751341

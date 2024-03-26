@@ -12,6 +12,10 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score, roc_auc_score
 from sklearn.model_selection import KFold
 
+from imblearn.over_sampling import SMOTE
+from imblearn.pipeline import make_pipeline
+from imblearn.under_sampling import RandomUnderSampler
+
 def missing_value_analysis(data):
 
     """ 
@@ -255,6 +259,9 @@ def feature_process(data, numerical_feature_list, categorical_feature_list, targ
     X_categorical = data_XY[categorical_feature_list]
     Y_target = data_XY[target_variable]
 
+    # non-voters are labeled as 1, voters are labeled as 0
+    Y_target = Y_target.apply(lambda x: 1 if x == 1 else 0)
+
     # impute + process(one-hot)  categorical features (also get the new names)
 
     X_categorical_imp = X_categorical.fillna(-1)
@@ -300,4 +307,128 @@ def cross_validation(X, Y, model, k = 5):
         f1_list.append(f1_score(y_test, y_pred))
         roc_auc_list.append(roc_auc_score(y_test, y_pred))
         importance_list.append(model.coef_[0])
+
     return accuracy_list, recall_list, precision_list, f1_list, roc_auc_list, importance_list
+
+from imblearn.over_sampling import RandomOverSampler
+
+
+def cross_validation_imb(X, Y, model, k = 5):
+    
+    kf = KFold(n_splits=k, random_state=1, shuffle=True)
+    accuracy_list = []
+    recall_list = []
+    precision_list = []
+    f1_list = []
+    roc_auc_list = []
+    importance_list = []
+
+    pipeline = make_pipeline(SMOTE(random_state=42), model)
+
+
+    for train_index, test_index in kf.split(X):
+        X_train, X_test = X[train_index], X[test_index]
+        y_train, y_test = Y[train_index], Y[test_index]
+
+        pipeline.fit(X_train, y_train)
+
+        model.fit(X_train, y_train)
+        y_pred = model.predict(X_test)
+        accuracy_list.append(accuracy_score(y_test, y_pred))
+        recall_list.append(recall_score(y_test, y_pred))
+        precision_list.append(precision_score(y_test, y_pred))
+        f1_list.append(f1_score(y_test, y_pred))
+        roc_auc_list.append(roc_auc_score(y_test, y_pred))
+        # importance_list.append(model.coef_[0])
+
+        importance_list.append(pipeline[-1].coef_[0])
+
+    return accuracy_list, recall_list, precision_list, f1_list, roc_auc_list, importance_list
+
+def cross_validation_imb_downsampling(X, Y, model, k = 5):
+    
+    kf = KFold(n_splits=k, random_state=1, shuffle=True)
+    accuracy_list = []
+    recall_list = []
+    precision_list = []
+    f1_list = []
+    roc_auc_list = []
+    importance_list = []
+
+    pipeline = make_pipeline(RandomUnderSampler(sampling_strategy=0.5,random_state=42), model)
+
+
+    for train_index, test_index in kf.split(X):
+        X_train, X_test = X[train_index], X[test_index]
+        y_train, y_test = Y[train_index], Y[test_index]
+
+        pipeline.fit(X_train, y_train)
+
+        model.fit(X_train, y_train)
+        y_pred = model.predict(X_test)
+        accuracy_list.append(accuracy_score(y_test, y_pred))
+        recall_list.append(recall_score(y_test, y_pred))
+        precision_list.append(precision_score(y_test, y_pred))
+        f1_list.append(f1_score(y_test, y_pred))
+        roc_auc_list.append(roc_auc_score(y_test, y_pred))
+        # importance_list.append(model.coef_[0])
+
+        importance_list.append(pipeline[-1].coef_[0])
+
+    return accuracy_list, recall_list, precision_list, f1_list, roc_auc_list, importance_list
+
+def feature_importance_analysis(data_group, numerical_feature_list, categorical_feature_list, target_variable, value_label_dict, folder_name, group='', group_cat=''):
+     
+    X_categorical_transformed, X_continuous_transformed, Y_target, enc_categorical_feature_list = utils.feature_process(data_group, numerical_feature_list, categorical_feature_list, target_variable,value_label_dict)
+
+    X_continuous_categorical = np.concatenate((X_continuous_transformed, X_categorical_transformed), axis=1)
+
+    model = LogisticRegression(l1_ratio = 0.5, max_iter = 500, solver = 'saga', penalty = 'elasticnet')
+
+    accuracy_list, recall_list, precision_list, f1_list, roc_auc_list, importance_list = utils.cross_validation(X_continuous_categorical, Y_target, model, k = 5)
+
+
+    # use imbalanced learn to deal with the imbalanced data
+    # accuracy_list, recall_list, precision_list, f1_list, roc_auc_list, importance_list = utils.cross_validation_imb(X_continuous_categorical, Y_target, model, k = 5)
+
+
+    print('average accuracy: ', np.mean(accuracy_list))
+    print('average recall: ', np.mean(recall_list))
+    print('average precision: ', np.mean(precision_list))
+    print('average f1 score: ', np.mean(f1_list))
+    print('average roc auc score: ', np.mean(roc_auc_list))
+
+    # build the feature importance dataframe
+    feature_importance = pd.DataFrame({'feature': numerical_feature_list + enc_categorical_feature_list, 'importance': np.mean(importance_list, axis=0)})
+
+     # further process the feature importance dataframe, drop the features whose name includes {DK', 'NA', 'RF', 'Missing'}
+    feature_importance_effect = feature_importance[~feature_importance['feature'].str.contains('DK|NA|RF|Missing')]
+
+
+    top_15_positive = feature_importance_effect.sort_values('importance', ascending = False).head(15)
+    top_15_negative = feature_importance_effect.sort_values('importance', ascending = True).head(15)
+
+
+    # build a folder to save the results
+
+    if group_cat == '':
+        sub_folder_name = folder_name + group + '/'
+    else:
+        sub_folder_name = folder_name + group + '/' + group_cat + '/' 
+    
+    if not os.path.exists(sub_folder_name):
+        os.makedirs(sub_folder_name)
+
+    # recall: the non-voter are the positive samples, the voter are the negative samples
+
+    feature_importance.to_csv(sub_folder_name + 'feature_importance_full.csv', index = False)
+    feature_importance_effect.to_csv(sub_folder_name + 'feature_importance_effect.csv', index = False)
+    top_15_positive.to_csv(sub_folder_name + 'top_15_non_voter.csv', index = False)
+    top_15_negative.to_csv(sub_folder_name + 'top_15_voter.csv', index = False)
+
+    # add the ratio of the positive samples(non-voter) in the group
+    non_voter_ratio = len(data_group[data_group[target_variable] == 1]) / len(data_group)
+
+    # save the mean of the metrics
+    metrics = pd.DataFrame({ 'non-voter-ratio': non_voter_ratio ,   'accuracy': np.mean(accuracy_list), 'recall': np.mean(recall_list), 'precision': np.mean(precision_list), 'f1': np.mean(f1_list), 'roc_auc': np.mean(roc_auc_list)}, index = [0])
+    metrics.to_csv(sub_folder_name + 'metrics.csv', index = False)

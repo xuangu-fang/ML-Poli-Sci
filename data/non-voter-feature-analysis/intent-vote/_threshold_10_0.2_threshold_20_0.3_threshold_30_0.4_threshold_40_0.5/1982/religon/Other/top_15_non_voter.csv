@@ -1,0 +1,16 @@
+feature,importance
+Gender_3. Other (2016),0.8029664241099581
+Family_income_1. 0 to 16 percentile,0.5155000942715171
+Family_income_2. 17 to 33 percentile,0.2987280219449282
+education7_1. 8 grades or less ('grade school'),0.29640454058029053
+education6_1. 8 grades or less ('grade school'),0.29640454058029053
+Interest_elections_1. Not much interested,0.27681557570028104
+Party_id7_4. Independent - Independent,0.2745726929052207
+Party_id3_2. Independents,0.2745726929052207
+"approve_pres_strength_3. Disapprove, not strongly",0.2575914826745786
+Party_id7_6. Weak Republican,0.23875435240692883
+VCF0130_4. A few times a year,0.20215821668815143
+approve_pres_1. Approve,0.2003871586925962
+"VCF0721_1. No (includes 'not asked for money' in 1966,1968)",0.1762290597765755
+VCF0720_1. No,0.17462610361571418
+meetingCommuntySchool_2. No,0.17063999743662267

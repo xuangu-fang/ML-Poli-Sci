@@ -1,0 +1,16 @@
+feature,importance
+VCF9030_7. No contact,0.6119429973326757
+Family_income_1. 0 to 16 percentile,0.5610724505957179
+ideology7_1. Extremely liberal,0.41270940008311496
+education7_1. 8 grades or less ('grade school'),0.3659056450783871
+education6_1. 8 grades or less ('grade school'),0.3659056450783871
+"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.32842703482653546
+"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.32842703482653546
+Family_income_2. 17 to 33 percentile,0.3116630562919598
+"region_3. South (AL, AR, DE, D.C., FL, GA, KY, LA, MD, MS, NC",0.2973145096519188
+Interest_elections_1. Not much interested,0.28254810803341834
+meetingCommuntySchool_2. No,0.23023589318064971
+Party_id7_4. Independent - Independent,0.1739469026915796
+Party_id3_2. Independents,0.1739469026915796
+Gender_1. Male,0.1559895469069012
+authoritarian2_1. Obedience,0.1522584861709783

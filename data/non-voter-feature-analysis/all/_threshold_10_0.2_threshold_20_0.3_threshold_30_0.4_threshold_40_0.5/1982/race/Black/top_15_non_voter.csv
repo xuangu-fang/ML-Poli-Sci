@@ -1,0 +1,16 @@
+feature,importance
+Interest_elections_1. Not much interested,0.6077419084912121
+Family_income_1. 0 to 16 percentile,0.4733423531949198
+ideology7_7. Extremely conservative,0.3531655894211351
+VCF0130_5. Never (1990 and later: 'No' in filter),0.3471411672688044
+Education4_1. Grade school or less (0-8 grades); 2020: less than high school credential,0.33756156227715184
+Party_id3_2. Independents,0.32833140003799927
+Party_id7_4. Independent - Independent,0.32833140003799927
+VCF0718_1. No,0.2626220744212017
+ideology7_1. Extremely liberal,0.2590178912539092
+"Education4_2. High school (12 grades or fewer, incl. non-college",0.2554364036535059
+"approve_pres_strength_3. Disapprove, not strongly",0.23983608631403386
+Party_id7_3. Independent - Democrat,0.20504723653465237
+education7_1. 8 grades or less ('grade school'),0.20190828761219928
+education6_1. 8 grades or less ('grade school'),0.20190828761219928
+Party_id7_5. Independent - Republican,0.1963761214168574

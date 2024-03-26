@@ -1,0 +1,16 @@
+feature,importance
+Education4_1. Grade school or less (0-8 grades); 2020: less than high school credential,0.6164548558018857
+Family_income_1. 0 to 16 percentile,0.5037267243381828
+"Education4_2. High school (12 grades or fewer, incl. non-college",0.4621112348251171
+VCF0130_5. Never (1990 and later: 'No' in filter),0.41086752360398393
+Interest_elections_1. Not much interested,0.36526486480855097
+ideology7_1. Extremely liberal,0.32396992411120307
+"region_3. South (AL, AR, DE, D.C., FL, GA, KY, LA, MD, MS, NC",0.3099669633054845
+VCF0718_1. No,0.26694613847357224
+ideology7_7. Extremely conservative,0.2502438151862805
+Gender_1. Male,0.24746196984577037
+VCF9030_7. No contact,0.22773833721029
+VCF0130_4. A few times a year,0.215140804577501
+VCF0721_2. Yes (includes 'tax check-off' in 1976),0.19413072185767427
+VCF0717_1. No,0.18542153967151792
+have_healthInsurance_2. No,0.1751209033746985

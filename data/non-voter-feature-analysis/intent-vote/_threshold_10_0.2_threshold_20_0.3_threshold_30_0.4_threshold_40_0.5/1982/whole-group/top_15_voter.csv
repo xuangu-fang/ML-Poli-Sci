@@ -1,0 +1,16 @@
+feature,importance
+VCF0130_1. Every week (Except 1970: almost every week),-0.4982811593241003
+Age,-0.43993173795516266
+Party_id7_1. Strong Democrat,-0.3992733572679619
+Family_income_5. 96 to 100 percentile,-0.38007141302299613
+Family_income_4. 68 to 95 percentile,-0.3407708775951042
+VCF0717_2. Yes,-0.33544674553862264
+Party_id7_7. Strong Republican,-0.32148091656034056
+Education4_4. College or advanced degree (no cases 1948),-0.32145994392518107
+education6_6. BA level degrees; advanced degrees incl. LLB,-0.32145994392518107
+VCF0130_2. Almost every week (no cases in 1970),-0.30749746712627835
+Interest_elections_3. Very much interested,-0.2775677138190943
+VCF0721_2. Yes (includes 'tax check-off' in 1976),-0.2580167761291384
+"approve_pres_strength_4. Disapprove, strongly",-0.22017607040099457
+authoritarian1_1. Curiosity,-0.21875478219588432
+"education6_5. Some college, no degree; junior/community college",-0.20295011734306195

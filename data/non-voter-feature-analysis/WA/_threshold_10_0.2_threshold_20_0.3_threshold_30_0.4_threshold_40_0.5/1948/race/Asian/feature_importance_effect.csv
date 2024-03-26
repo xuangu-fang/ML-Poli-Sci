@@ -1,0 +1,113 @@
+feature,importance
+therm_ChrFundament,0.10020142151404446
+therm_hispanics,-0.10505636900706708
+therm_RepParty,0.2061729074055101
+therm_DemParty,0.15694936984474123
+therm_Whites,-0.05725319254085768
+therm_liberals,-0.1370826898398511
+therm_conservatives,0.2233155151715019
+therm_Blacks,-0.2060962075303594
+Age,0.0
+meetingCommuntySchool_1. Yes,0.0
+meetingCommuntySchool_2. No,0.0
+workedWithcommunity_1. Yes,0.0
+workedWithcommunity_2. No,0.02266487511105074
+authoritarian2_1. Obedience,0.6950886371161753
+authoritarian2_3. Self-reliance,-0.08223749774294478
+authoritarian4_1. Independence,-0.016135109252958656
+authoritarian4_3. Respect for elders,0.20076371779883884
+authoritarian1_1. Curiosity,0.0
+authoritarian1_3. Good manners,0.11652092679294948
+authoritarian3_1. Being considerate,0.0
+authoritarian3_3. Well behaved,0.05828437803556633
+have_healthInsurance_1. Yes,0.0
+have_healthInsurance_2. No,0.0
+volunteer_1. Yes,0.0
+volunteer_2. No,0.11115831263053914
+VCF0886_1.   Increased,0.061609432884607615
+VCF0886_2.   Same,0.04179038726802413
+VCF0886_3.   Decreased (before 2012: or cut out entirely),0.0
+VCF9029_1. Close race,0.011149938498759497
+VCF9029_3. Win by quite a bit,-0.43519970005885894
+VCF0890_1.   Increased,0.21069491602220847
+VCF0890_2.   Same,0.0
+VCF0890_3.   Decreased (before 2012: or cut out entirely),0.0
+VCF9031_1. Yes,0.0
+VCF9031_5. No,0.2723507433193272
+VCF9028_1. Democratic Pres. candidate,0.0
+VCF9028_2. Republican Pres. candidate,-0.10377411872105564
+approve_president_economy_1. Approve strongly,-0.695670283096625
+approve_president_economy_2. Approve not strongly,0.2897375703799659
+approve_president_economy_4. Disapprove not strongly,0.19887778370076833
+approve_president_economy_5. Disapprove strongly,-0.0018953453991652058
+"approve_pres_strength_1. Approve, strongly",-0.04519165545430273
+"approve_pres_strength_2. Approve, not strongly",0.10152909755603046
+"approve_pres_strength_3. Disapprove, not strongly",0.0
+"approve_pres_strength_4. Disapprove, strongly",-0.008139187221830607
+Will_PresElectionClose_1. Will win by quite a bit,-0.4051664313122706
+Will_PresElectionClose_2. Close race,0.2981765786379145
+ideology7_2. Liberal,0.0
+ideology7_3. Slightly liberal,0.0
+"ideology7_4. Moderate, middle of the road",0.016012687900994645
+ideology7_5. Slightly conservative,0.0931187684974522
+ideology7_6. Conservative,-0.05248808149771017
+ideology7_7. Extremely conservative,0.0
+approve_pres_1. Approve,-0.09313671896631168
+approve_pres_2. Disapprove,0.02096564952898762
+"VCF9030b_1. Yes, contact by Democratic party",0.0
+VCF9030b_2. No contact by Democratic party,0.04498367852067753
+"VCF9030c_1. Yes, contact by Republican party",0.0
+VCF9030c_2. No contact by Republican party,0.0
+"VCF9030a_1. Yes, contact by major party",-0.02739639573117585
+VCF9030a_2. No contact by major party,0.04498367852067753
+VCF0130_1. Every week (Except 1970: almost every week),0.0
+VCF0130_2. Almost every week (no cases in 1970),0.0
+VCF0130_3. Once or twice a month,0.0
+VCF0130_4. A few times a year,-0.04811336481036359
+VCF0130_5. Never (1990 and later: 'No' in filter),0.19851691748195507
+VCF0130_7. No religious preference (1970-1988),0.0
+"VCF9030_1. Yes, contact: Democratic party",0.0
+"VCF9030_3. Yes, contact: both major parties",0.0
+VCF9030_7. No contact,0.04498367852067753
+VCF0720_1. No,0.0
+VCF0720_2. Yes,0.0
+"VCF0721_1. No (includes 'not asked for money' in 1966,1968)",0.0
+VCF0721_2. Yes (includes 'tax check-off' in 1976),0.0
+VCF0719_1. No,0.0
+VCF0719_2. Yes,0.0
+VCF0718_1. No,0.0
+VCF0717_1. No,0.0
+VCF0717_2. Yes,0.0
+Family_income_1. 0 to 16 percentile,0.14465120763012723
+Family_income_2. 17 to 33 percentile,0.0
+Family_income_3. 34 to 67 percentile,0.0
+Family_income_4. 68 to 95 percentile,-0.11925551448509294
+Interest_elections_1. Not much interested,0.1909229336381046
+Interest_elections_2. Somewhat interested,-0.02926335481032527
+Interest_elections_3. Very much interested,0.0
+South_2. Nonsouth,0.0
+"region_4. West (AK, AZ, CA, CO, HI, ID, MT, NV, NM, OR, UT, WA,",0.0
+Party_id7_1. Strong Democrat,-0.060457371801044546
+Party_id7_2. Weak Democrat,0.021268400598936994
+Party_id7_3. Independent - Democrat,-0.03343455830631935
+Party_id7_4. Independent - Independent,0.0
+Party_id7_5. Independent - Republican,0.1779317737623876
+Party_id7_6. Weak Republican,0.10034291283554013
+Party_id7_7. Strong Republican,-0.057672057668649676
+Party_id3_1. Democrats (including leaners),-0.12341591171309167
+Party_id3_2. Independents,0.0
+Party_id3_3. Republicans (including leaners),0.20251203529528583
+"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.0
+"education6_3. 12 grades, diploma or equivalency",0.0
+"education6_5. Some college, no degree; junior/community college",-0.008362514847019267
+education6_6. BA level degrees; advanced degrees incl. LLB,-0.011489753763326093
+"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.0
+"education7_3. 12 grades, diploma or equivalency",0.0
+"education7_5. Some college, no degree; junior/community college",-0.008362514847019267
+education7_6. BA level degrees,-0.12703118180880604
+education7_7. Advanced degrees incl. LLB,0.029616491754065354
+"Education4_2. High school (12 grades or fewer, incl. non-college",0.06217830109064286
+Education4_3. Some college (13 grades or more but no degree;,-0.008362514847019267
+Education4_4. College or advanced degree (no cases 1948),-0.011489753763326093
+Gender_1. Male,0.19876333797480608
+Gender_2. Female,-0.30238786411612006
