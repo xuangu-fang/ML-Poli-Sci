@@ -15,6 +15,7 @@ from sklearn.model_selection import KFold
 from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import make_pipeline
 from imblearn.under_sampling import RandomUnderSampler
+from transfer_learn import TCA
 
 def missing_value_analysis(data):
 
@@ -528,5 +529,82 @@ def universal_predict(data_source,data_target, numerical_feature_list, categoric
     # save the prediction results as a csv file
     data_target['prediction'] = Y_target_predict
     data_target.to_csv(sub_folder_name + 'prediction.csv', index = False)
+
+    return Y_target_predict
+
+
+
+def universal_predict_TCA(data_source,data_target, numerical_feature_list, categorical_feature_list, target_variable, value_label_dict, folder_name, group='', group_cat='',dim=100):
+
+    # apply transfer component analysis (TCA) to the data
+
+     
+    N1 = len(data_source)
+    N2 = len(data_target)
+
+    data_group = pd.concat([data_source, data_target]).reset_index(drop=True)
+
+    X_categorical_transformed, X_continuous_transformed, Y_target, enc_categorical_feature_list = utils.feature_process(data_group, numerical_feature_list, categorical_feature_list, target_variable,value_label_dict)
+
+    X_continuous_categorical = np.concatenate((X_continuous_transformed, X_categorical_transformed), axis=1)
+
+    # only use the source data to train the model
+    Y_target_train = Y_target[:N1]
+
+    X_continuous_categorical_train = X_continuous_categorical[:N1]
+
+    X_continuous_categorical_test = X_continuous_categorical[N1:]
+
+    # transfer learning step
+
+    TCA_model = TCA(kernel_type='primal', dim=dim, lamb=1, gamma=1)
+    Xs_new, Xt_new = TCA_model.fit(X_continuous_categorical_train, X_continuous_categorical_test)
+
+
+    model = LogisticRegression(l1_ratio = 0.5, max_iter = 500, solver = 'saga', penalty = 'elasticnet')
+
+    accuracy_list, recall_list, precision_list, f1_list, roc_auc_list, importance_list = utils.cross_validation(Xs_new, Y_target_train, model, k = 5)
+
+    # use imbalanced learn to deal with the imbalanced data
+    # accuracy_list, recall_list, precision_list, f1_list, roc_auc_list, importance_list = utils.cross_validation_imb(X_continuous_categorical, Y_target, model, k = 5)
+
+
+    print('average accuracy: ', np.mean(accuracy_list))
+    print('average recall: ', np.mean(recall_list))
+    print('average precision: ', np.mean(precision_list))
+    print('average f1 score: ', np.mean(f1_list))
+    print('average roc auc score: ', np.mean(roc_auc_list))
+
+    # build a folder to save the results
+
+    if group_cat == '':
+        sub_folder_name = folder_name + group + '/'
+    else:
+        sub_folder_name = folder_name + group + '/' + group_cat + '/' 
+    
+    if not os.path.exists(sub_folder_name):
+        os.makedirs(sub_folder_name)
+
+    # add the ratio of the positive samples(non-voter) in the group
+    non_voter_ratio = len(data_group[data_group[target_variable] == 1]) / len(data_group)
+
+    # save the mean of the metrics
+    metrics = pd.DataFrame({ 'non-voter-ratio': non_voter_ratio ,   'accuracy': np.mean(accuracy_list), 'recall': np.mean(recall_list), 'precision': np.mean(precision_list), 'f1': np.mean(f1_list), 'roc_auc': np.mean(roc_auc_list)}, index = [0])
+    metrics.to_csv(sub_folder_name + 'metrics.csv', index = False)
+
+
+    #  apply the universal model to the target data
+    model.fit(Xs_new, Y_target_train)
+    Y_target_predict = model.predict(Xt_new)
+
+    # value counts of the prediction
+    print(pd.Series(Y_target_predict).value_counts())
+
+    # save the prediction results as a csv file
+    data_target['prediction'] = Y_target_predict
+    data_target.to_csv(sub_folder_name + 'prediction.csv', index = False)
+
+    return  Y_target_predict, Xs_new, Xt_new,X_continuous_categorical_train, X_continuous_categorical_test
+
 
 
