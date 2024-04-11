@@ -9,6 +9,11 @@ Missing value imputation-sklearn:https://scikit-learn.org/stable/modules/impute.
 
 ## log
 
+- 2024/4/11:
+   - send documents on lgistic regression + elastic net to the professor
+   - make the documetns on data process ( one-hot  ) and missing value imputation
+   - build a table to show the gap between the "vote-D" and "vote-R" for whole data and state-wise data
+
 
 - 2024/3/26:
     - model did not work well on "intend-vote" group due to the imbalance of the data
