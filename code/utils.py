@@ -530,6 +530,13 @@ def universal_predict(data_source,data_target, numerical_feature_list, categoric
     data_target['prediction'] = Y_target_predict
     data_target.to_csv(sub_folder_name + 'prediction.csv', index = False)
 
+    # #  labele 1 -> Democratic, labele 0 -> Repub
+    data_target['prediction_label'] = data_target['prediction'].apply(lambda x: 'Democratic' if x == 1 else 'Repub')
+    data_target['prediction_label'].to_csv(sub_folder_name + 'prediction_only_label.csv', index = False)
+
+    print('number of samples of Democratic: ', len(data_target[data_target['prediction'] == 1]))
+    print('number of samples of Repub: ', len(data_target[data_target['prediction'] == 0]))
+
     return Y_target_predict
 
 
@@ -603,6 +610,14 @@ def universal_predict_TCA(data_source,data_target, numerical_feature_list, categ
     # save the prediction results as a csv file
     data_target['prediction'] = Y_target_predict
     data_target.to_csv(sub_folder_name + 'prediction.csv', index = False)
+
+    # #  labele 1 -> Democratic, labele 0 -> Repub
+    data_target['prediction_label'] = data_target['prediction'].apply(lambda x: 'Democratic' if x == 1 else 'Repub')
+    data_target['prediction_label'].to_csv(sub_folder_name + 'prediction_only_label.csv', index = False)
+
+
+    print('number of samples of Democratic: ', len(data_target[data_target['prediction'] == 1]))
+    print('number of samples of Repub: ', len(data_target[data_target['prediction'] == 0]))
 
     return  Y_target_predict, Xs_new, Xt_new,X_continuous_categorical_train, X_continuous_categorical_test
 
