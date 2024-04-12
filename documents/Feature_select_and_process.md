@@ -4,7 +4,7 @@
 
 In the initial phase of our feature processing workflow, the selection of candidate features is critically important. This selection is primarily based on expert judgment and domain knowledge, leveraging insights from various specialized fields to create a robust and relevant feature set for our analysis. Here’s a detailed breakdown of our approach:
 
-- **Expert and Domain Knowledge Integration**: Our team, comprising domain experts, meticulously identified variables that are most likely to influence the outcome of interest—political voting behavior. This systematic selection ensures that the features are not only statistically significant but also contextually relevant.
+- **Expert and Domain Knowledge Integration**: Based on Baodong's book and suggestions, we identified variables that are most likely to influence the outcome of interest—political voting behavior. This systematic selection ensures that the features are not only statistically significant but also contextually relevant.
 
 - **Diverse Domains**: The features were selected from eight distinct domains, each contributing unique aspects to the overall analysis. These domains include:
   1. **Contextual Domain**: Features that provide background and situational context to the voting scenarios.
@@ -27,7 +27,7 @@ This comprehensive selection of 115 variables from varied domains ensures that o
 The primary motivation for this phase of our work is to address the challenges posed by extensive missing values in our dataset, a common issue in political science research that can significantly impact modeling accuracy and insights. We devised a comprehensive approach to mitigate these effects and enhance the quality of our data for modeling.
 
 ##### Step 1: Assessing Missing Values
-The first step involves a detailed analysis of the missing values across all candidate features. We compute the cumulative missing ratio over multiple decade-long spans to understand the persistence and pattern of missing data across different time periods. For instance, we calculate missing ratios for the last 10 years (2012-2022), 20 years (2002-2022), and so forth. This assessment helps in identifying trends and periods with significant data loss, which are critical for subsequent processing steps.
+The first step involves a detailed analysis of the missing values across all candidate features. We compute the cumulative missing ratio over multiple decade-long spans to understand the persistence and pattern of missing data across different time periods. For instance, we calculate missing ratios for the last 10 years (2012-2022), 20 years (2002-2022), and so forth. This assessment helps in identifying trends and periods with significant data loss, which are critical for subsequent processing steps. The detailed missing value analysis result is available at: (https://github.com/xuangu-fang/ML-Poli-Sci/blob/master/data/missing_value_analysis.csv)
 
 ##### Step 2: Feature Selection Based on Missing Value Thresholds
 To ensure the robustness of our model, we adopt criteria that prioritize features with fewer missing values in more recent years, as these are likely to provide more reliable and relevant information. We establish a set of thresholds for missing ratios over different time spans:
