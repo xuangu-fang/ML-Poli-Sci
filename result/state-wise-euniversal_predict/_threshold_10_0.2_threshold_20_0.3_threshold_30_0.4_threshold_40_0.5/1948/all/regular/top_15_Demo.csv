@@ -1,0 +1,16 @@
+feature,importance
+approve_pres_2. Disapprove,1.5165042541919704
+Party_id3_1. Democrats (including leaners),1.04469458589073
+therm_DemParty,0.8999078829061655
+Party_id7_1. Strong Democrat,0.8987974940656948
+"approve_pres_strength_2. Approve, not strongly",0.8680697879751975
+"approve_pres_strength_1. Approve, strongly",0.8019840081564593
+sex_orientation_3. Homosexual or gay (or lesbian),0.7629926532908007
+blackInfluence_Politics_3. Too little influence,0.7022081711334989
+religion_3. Jewish,0.7017890073477699
+VCF9028_1. Democratic Pres. candidate,0.5804726597960939
+Gender_3. Other (2016),0.5512374880592863
+follow_political_info_5. Never,0.49410453970651613
+therm_liberals,0.474633606045046
+VCF0886_1.   Increased,0.39934369422244975
+VCF9028_3. Other Pres. candidate,0.3905435192697193

@@ -1,0 +1,240 @@
+feature,importance
+therm_Christians,-0.5967464821881183
+therm_Mislims,1.2378119475098692
+therm_ChrFundament,-0.050920331439027064
+therm_hispanics,0.013085040222036406
+therm_RepParty,-0.5957003881956581
+therm_DemParty,1.2948173896071413
+therm_Whites,-0.0517899999831513
+therm_liberals,0.49367966715973016
+therm_conservatives,-0.44152303119591324
+therm_Blacks,-0.5015606995059432
+Age,0.16518312344993208
+howOftenTrust_Missing,0.14418303796157508
+howOftenTrust_1. Always,0.0
+howOftenTrust_2. Most of the time,0.0
+howOftenTrust_3. About half the time,-0.029706440611547667
+howOftenTrust_4. Once in a while,0.0
+howOftenTrust_5. Never,0.0
+follow_political_info_Missing,0.1701991809840872
+follow_political_info_1. Always,0.012334950067864314
+follow_political_info_2. Most of the time,0.0
+follow_political_info_3. About half the time,-0.03399026395455405
+follow_political_info_4. Some of the time,-0.2668348143373035
+follow_political_info_5. Never,0.0
+bisexalFamilyorFriends_Missing,0.0
+bisexalFamilyorFriends_1. Yes,-0.1912189724016335
+bisexalFamilyorFriends_2. No,0.5328031758598859
+blackInfluence_Politics_Missing,0.0
+blackInfluence_Politics_1. Too much influence,0.0
+blackInfluence_Politics_2. Just about the right amount,-0.11575632352286729
+blackInfluence_Politics_3. Too little influence,0.32402715034751217
+sex_orientation_Missing,0.0
+sex_orientation_1. Heterosexual or straight,0.0
+sex_orientation_2. Bisexual,0.0
+sex_orientation_3. Homosexual or gay (or lesbian),0.0
+powerDifference_Missing,0.0
+powerDifference_1. It doesn't make a difference who is in power,0.0
+powerDifference_unmatched category,0.0
+powerDifference_unmatched category,0.0
+powerDifference_unmatched category,0.020704330821403338
+powerDifference_5. It makes a big difference who is in power,-0.08596952954471732
+votingMakedifference_Missing,0.0
+votingMakedifference_1. Won't make a difference,0.0
+votingMakedifference_unmatched category,0.0
+votingMakedifference_unmatched category,-0.021975192591600457
+votingMakedifference_unmatched category,0.0
+votingMakedifference_5. Can make a big difference,0.40363175408372787
+satisfactionLife_Missing,0.0
+satisfactionLife_1. Extremely satisfied,0.0345118150242172
+satisfactionLife_2. Very satisfied,0.0
+satisfactionLife_3. Moderately satisfied,0.023117466314862473
+satisfactionLife_4. Slightly satisfied,0.0
+satisfactionLife_5. Not satisfied at all,0.0
+living_withFamily_Missing,0.0
+living_withFamily_1. Yes,0.0
+living_withFamily_2. No,0.0
+satisfactionDemocracy_Missing,0.0
+satisfactionDemocracy_1. Very satisfied,0.18263801595668014
+satisfactionDemocracy_2. Fairly satisfied,0.02663551828705692
+satisfactionDemocracy_3. Not very satisfied,-0.3687272891839534
+satisfactionDemocracy_4. Not at all satisfied,0.0
+meetingCommuntySchool_Missing,0.0
+meetingCommuntySchool_1. Yes,-0.016439665651294254
+meetingCommuntySchool_2. No,0.057267543472430925
+workedWithcommunity_Missing,0.0
+workedWithcommunity_1. Yes,0.038598560044368915
+workedWithcommunity_2. No,0.010925069794836203
+have_healthInsurance_Missing,0.0
+have_healthInsurance_1. Yes,-0.023769022157412237
+have_healthInsurance_2. No,0.0
+authoritarian2_Missing,0.0
+authoritarian2_1. Obedience,0.0175834474955988
+authoritarian2_2. Both (VOL),0.0
+authoritarian2_3. Self-reliance,0.0
+authoritarian4_Missing,0.0
+authoritarian4_1. Independence,0.0
+authoritarian4_2. Both (VOL),0.0
+authoritarian4_3. Respect for elders,0.0
+authoritarian1_Missing,0.0
+authoritarian1_1. Curiosity,0.11850307209648961
+authoritarian1_2. Both (VOL),0.0
+authoritarian1_3. Good manners,-0.06883937844652446
+authoritarian3_Missing,0.0
+authoritarian3_1. Being considerate,0.10022985344292543
+authoritarian3_2. Both (VOL),0.0
+authoritarian3_3. Well behaved,0.0
+VCF0886_Missing,-0.0430251151085406
+VCF0886_1.   Increased,0.0
+VCF0886_2.   Same,0.0
+VCF0886_3.   Decreased (before 2012: or cut out entirely),0.3093476977689733
+VCF0886_8.   DK,0.0
+volunteer_Missing,-0.03771230611575603
+volunteer_1. Yes,0.45301155506028595
+volunteer_2. No,0.0
+VCF0890_Missing,-0.0430251151085406
+VCF0890_1.   Increased,0.6129183862930321
+VCF0890_2.   Same,-0.004801639144054519
+VCF0890_3.   Decreased (before 2012: or cut out entirely),0.0
+VCF9029_Missing,0.14407123966574362
+VCF9029_1. Close race,-0.28748869476417604
+VCF9029_3. Win by quite a bit,0.0
+VCF9029_8. DK; depends,0.0
+approve_president_economy_Missing,-0.0430251151085406
+approve_president_economy_1. Approve strongly,0.01003655767555239
+approve_president_economy_2. Approve not strongly,0.0
+approve_president_economy_4. Disapprove not strongly,0.0
+approve_president_economy_5. Disapprove strongly,0.005043839808881274
+approve_president_economy_8. DK if approve/disapprove strongly or not strongly;,0.0
+VCF9031_Missing,-0.00464620090461698
+VCF9031_1. Yes,0.0
+VCF9031_5. No,-0.012363219654505752
+approve_pres_strength_Missing,-0.1799099093080359
+"approve_pres_strength_1. Approve, strongly",0.25627013876239646
+"approve_pres_strength_2. Approve, not strongly",0.0
+"approve_pres_strength_3. Disapprove, not strongly",-0.06842921539253392
+"approve_pres_strength_4. Disapprove, strongly",0.0
+approve_pres_strength_8. DK,0.0
+VCF9028_Missing,0.0
+VCF9028_1. Democratic Pres. candidate,0.2128036800521329
+VCF9028_2. Republican Pres. candidate,-0.22140653189629805
+VCF9028_3. Other Pres. candidate,0.0
+VCF9028_8. DK,-0.04921357928210097
+approve_pres_Missing,0.0
+approve_pres_1. Approve,-0.11862157820130075
+approve_pres_2. Disapprove,0.166048100800212
+approve_pres_8. DK,0.0
+ideology7_Missing,0.24267526860893024
+ideology7_1. Extremely liberal,0.0
+ideology7_2. Liberal,-0.012695576857877252
+ideology7_3. Slightly liberal,0.0
+"ideology7_4. Moderate, middle of the road",-0.00864766428019912
+ideology7_5. Slightly conservative,0.30093837921356004
+ideology7_6. Conservative,-0.034092741279031516
+ideology7_7. Extremely conservative,-0.18609044370994154
+ideology7_9. DK; haven't thought much about it,-0.006756319263063197
+VCF0130_Missing,0.06336181323431882
+VCF0130_1. Every week (Except 1970: almost every week),-0.33117159854441713
+VCF0130_2. Almost every week (no cases in 1970),0.0
+VCF0130_3. Once or twice a month,-0.5437424999914169
+VCF0130_4. A few times a year,0.11887251047935274
+VCF0130_5. Never (1990 and later: 'No' in filter),0.05009570071033317
+VCF0130_7. No religious preference (1970-1988),0.0
+Will_PresElectionClose_Missing,0.0
+Will_PresElectionClose_1. Will win by quite a bit,0.6547537683458946
+Will_PresElectionClose_2. Close race,-0.07665392947275611
+Will_PresElectionClose_9. DK; pro-con; depends; etc.,0.0
+VCF9030b_Missing,0.0
+"VCF9030b_1. Yes, contact by Democratic party",0.009662935965242548
+VCF9030b_2. No contact by Democratic party,0.0
+VCF9030c_Missing,0.0
+"VCF9030c_1. Yes, contact by Republican party",0.0
+VCF9030c_2. No contact by Republican party,0.0018444578249734184
+VCF9030a_Missing,0.0
+"VCF9030a_1. Yes, contact by major party",0.010297250119713604
+VCF9030a_2. No contact by major party,-0.03818843762411171
+VCF9030_Missing,0.0
+"VCF9030_1. Yes, contact: Democratic party",0.020218492055213706
+"VCF9030_2. Yes, contact: Republican party",0.0
+"VCF9030_3. Yes, contact: both major parties",-0.039725143257916005
+"VCF9030_5. Yes, contact: DK which party",0.0
+VCF9030_7. No contact,-0.03818843762411171
+VCF0720_Missing,0.0
+VCF0720_1. No,-0.4190360985813973
+VCF0720_2. Yes,0.13337111653755457
+Family_income_Missing,0.09920933350140457
+Family_income_1. 0 to 16 percentile,-0.11532965603864942
+Family_income_2. 17 to 33 percentile,0.12294454234577404
+Family_income_3. 34 to 67 percentile,-0.19428893245645776
+Family_income_4. 68 to 95 percentile,-0.3965842680908101
+Family_income_5. 96 to 100 percentile,0.6762857515555559
+Interest_elections_Missing,0.07082283711237858
+Interest_elections_1. Not much interested,-0.012340176199992333
+Interest_elections_2. Somewhat interested,-0.4606837464392595
+Interest_elections_3. Very much interested,0.40398088333707893
+VCF0721_Missing,0.0
+"VCF0721_1. No (includes 'not asked for money' in 1966,1968)",-0.2378506815759213
+VCF0721_2. Yes (includes 'tax check-off' in 1976),0.032231384895204974
+VCF0719_Missing,0.0
+VCF0719_1. No,0.0
+VCF0719_2. Yes,-0.10210448217980639
+VCF0718_Missing,0.0
+VCF0718_1. No,-0.024902577140845907
+VCF0718_2. Yes,0.0
+Party_id3_Missing,0.0
+Party_id3_1. Democrats (including leaners),0.8829517104023464
+Party_id3_2. Independents,0.0
+Party_id3_3. Republicans (including leaners),-1.0434657629317337
+Party_id7_Missing,0.0
+Party_id7_1. Strong Democrat,0.10392835337932112
+Party_id7_2. Weak Democrat,0.0
+Party_id7_3. Independent - Democrat,0.43588381476711024
+Party_id7_4. Independent - Independent,0.0
+Party_id7_5. Independent - Republican,0.0
+Party_id7_6. Weak Republican,-0.02129330463674899
+Party_id7_7. Strong Republican,-0.5815199130581119
+education6_1. 8 grades or less ('grade school'),0.025198796872318595
+"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.010937393605561972
+"education6_3. 12 grades, diploma or equivalency",-0.014417833140371076
+"education6_4. 12 grades, diploma or equivalency plus non-academic",-0.12288184074957513
+"education6_5. Some college, no degree; junior/community college",0.1759891689800696
+education6_6. BA level degrees; advanced degrees incl. LLB,-0.0692413470148251
+education7_1. 8 grades or less ('grade school'),0.025198796872318595
+"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.010937393605561972
+"education7_3. 12 grades, diploma or equivalency",-0.014417833140371076
+"education7_4. 12 grades, diploma or equivalency plus non-academic",-0.12288184074957513
+"education7_5. Some college, no degree; junior/community college",0.1759891689800696
+education7_6. BA level degrees,-0.43883832819654833
+education7_7. Advanced degrees incl. LLB,0.03646220167789117
+VCF0717_Missing,0.0
+VCF0717_1. No,-0.1809269782239984
+VCF0717_2. Yes,0.04396113656950777
+South_2. Nonsouth,0.0
+"region_3. South (AL, AR, DE, D.C., FL, GA, KY, LA, MD, MS, NC",0.0
+Education4_1. Grade school or less (0-8 grades); 2020: less than high school credential,0.05874477826326946
+"Education4_2. High school (12 grades or fewer, incl. non-college",-0.044603926531056846
+Education4_3. Some college (13 grades or more but no degree;,0.06987221662719982
+Education4_4. College or advanced degree (no cases 1948),-0.0692413470148251
+Race4_Missing,0.0
+Race4_1. White non-Hispanic,-0.14517583062012313
+Race4_2. Black non-Hispanic,0.2986130228401482
+Race4_3. Hispanic,0.0
+"Race4_4. Other or multiple races, non-Hispanic",-0.03730914210574152
+Race3_Missing,0.0
+Race3_1. White non-Hispanic,-0.14517583062012313
+Race3_2. Black non-Hispanic,0.2986130228401482
+Race3_3. Other,0.0
+Race7_Missing,0.0
+Race7_1. White non-Hispanic (1948-2012),-0.14517583062012313
+Race7_2. Black non-Hispanic (1948-2012),0.2986130228401482
+"Race7_3. Asian or Pacific Islander, non-Hispanic (1966-2012)",0.0
+Race7_4. American Indian or Alaska Native non-Hispanic (1966-2012),-0.007071055334496723
+Race7_5. Hispanic (1966-2012),0.0
+"Race7_6. Other or multiple races, non-Hispanic (1968-2012)",0.0
+religion_Missing,0.0
+religion_1. Protestant,-0.21559959105643461
+religion_2. Catholic [Roman Catholic],0.057328615745629155
+religion_3. Jewish,0.0
+religion_4. Other and none (also includes DK preference),0.0
+Gender_1. Male,0.02272259530676698
+Gender_2. Female,-0.014955991776359206

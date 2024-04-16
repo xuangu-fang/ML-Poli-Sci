@@ -310,7 +310,14 @@ def cross_validation(X, Y, model, k = 5):
         recall_list.append(recall_score(y_test, y_pred))
         precision_list.append(precision_score(y_test, y_pred))
         f1_list.append(f1_score(y_test, y_pred))
-        roc_auc_list.append(roc_auc_score(y_test, y_pred))
+
+        # if there are only one class in the prediction, then the roc_auc_score will be -1
+
+        if len(np.unique(y_pred)) == 1:
+            roc_auc_list.append(-1)
+        else:
+            roc_auc_list.append(roc_auc_score(y_test, y_pred))
+
         importance_list.append(model.coef_[0])
 
     return accuracy_list, recall_list, precision_list, f1_list, roc_auc_list, importance_list
@@ -521,23 +528,62 @@ def universal_predict(data_source,data_target, numerical_feature_list, categoric
 
     #  apply the universal model to the target data
     model.fit(X_continuous_categorical_train, Y_target_train)
-    Y_target_predict = model.predict(X_continuous_categorical_test)
 
-    # value counts of the prediction
-    print(pd.Series(Y_target_predict).value_counts())
+    # check the len(X_continuous_categorical_test) > 0, otherwise directly return the Y_target
 
-    # save the prediction results as a csv file
-    data_target['prediction'] = Y_target_predict
-    data_target.to_csv(sub_folder_name + 'prediction.csv', index = False)
+    if len(X_continuous_categorical_test) > 0:
 
-    # #  labele 1 -> Democratic, labele 0 -> Repub
-    data_target['prediction_label'] = data_target['prediction'].apply(lambda x: 'Democratic' if x == 1 else 'Repub')
-    data_target['prediction_label'].to_csv(sub_folder_name + 'prediction_only_label.csv', index = False)
+        Y_target_predict = model.predict(X_continuous_categorical_test)
 
-    print('number of samples of Democratic: ', len(data_target[data_target['prediction'] == 1]))
-    print('number of samples of Repub: ', len(data_target[data_target['prediction'] == 0]))
+        # value counts of the prediction
+        print(pd.Series(Y_target_predict).value_counts())
 
-    return Y_target_predict
+        # save the prediction results as a csv file
+        data_target['prediction'] = Y_target_predict
+        data_target.to_csv(sub_folder_name + 'prediction.csv', index = False)
+
+        # #  labele 1 -> Democratic, labele 0 -> Repub
+        data_target['prediction_label'] = data_target['prediction'].apply(lambda x: 'Democratic' if x == 1 else 'Repub')
+        data_target['prediction_label'].to_csv(sub_folder_name + 'prediction_only_label.csv', index = False)
+
+        # Number of predicted Democratic and Repub (non-voter group)
+
+        N_predict_vote_D = len(data_target[data_target['prediction'] == 1])
+        N_predict_vote_R = len(data_target[data_target['prediction'] == 0])
+
+        # number of training samples of Democratic and Repub  (voter group)
+        N_train_vote_D  = (Y_target_train==1).sum()
+        N_train_vote_R = len(Y_target_train) - N_train_vote_D
+
+    else: # coner case: AK, if there is no target data, save a file saying ""no target data"
+
+        # if there is no target data, save a file saying ""no target data"
+
+        data_target['prediction'] = 0
+        data_target.to_csv(sub_folder_name + 'prediction.csv', index = False)
+
+        N_predict_vote_D = 0
+        N_predict_vote_R = 0
+            # number of training samples of Democratic and Repub  (voter group)
+        N_train_vote_D  = (Y_target_train==1).sum()
+        N_train_vote_R = len(Y_target_train) - N_train_vote_D
+        
+    D_R_stats = {}
+
+    D_R_stats['N_predict_vote_D'] = N_predict_vote_D
+    D_R_stats['N_predict_vote_R'] = N_predict_vote_R
+    D_R_stats['N_voter_vote_D'] = N_train_vote_D
+    D_R_stats['N_voter_vote_R'] = N_train_vote_R
+
+    D_R_stats['N_total_vote_D'] = N_train_vote_D + N_predict_vote_D
+    D_R_stats['N_total_vote_R'] = N_train_vote_R + N_predict_vote_R
+
+    # save the dict as a csv file
+
+    D_R_stats_df = pd.DataFrame(D_R_stats, index = [0])
+    D_R_stats_df.to_csv(sub_folder_name + 'D_R_stats.csv', index = False)
+
+    return Y_target, D_R_stats
 
 
 
@@ -548,6 +594,7 @@ def universal_predict_TCA(data_source,data_target, numerical_feature_list, categ
      
     N1 = len(data_source)
     N2 = len(data_target)
+
 
     data_group = pd.concat([data_source, data_target]).reset_index(drop=True)
 
@@ -619,7 +666,39 @@ def universal_predict_TCA(data_source,data_target, numerical_feature_list, categ
     print('number of samples of Democratic: ', len(data_target[data_target['prediction'] == 1]))
     print('number of samples of Repub: ', len(data_target[data_target['prediction'] == 0]))
 
-    return  Y_target_predict, Xs_new, Xt_new,X_continuous_categorical_train, X_continuous_categorical_test
+    # Number of predicted Democratic and Repub (non-voter group)
+
+    N_predict_vote_D = len(data_target[data_target['prediction'] == 1])
+    N_predict_vote_R = len(data_target[data_target['prediction'] == 0])
+
+    # number of training samples of Democratic and Repub  (voter group)
+    N_train_vote_D  = (Y_target_train==1).sum()
+    N_train_vote_R = len(Y_target_train) - N_train_vote_D
+
+    # print('number of samples of Democratic: ', len(data_target[data_target['prediction'] == 1]))
+    # print('number of samples of Repub: ', len(data_target[data_target['prediction'] == 0]))
+
+    D_R_stats = {}
+
+    D_R_stats['N_predict_vote_D'] = N_predict_vote_D
+    D_R_stats['N_predict_vote_R'] = N_predict_vote_R
+    D_R_stats['N_voter_vote_D'] = N_train_vote_D
+    D_R_stats['N_voter_vote_R'] = N_train_vote_R
+
+    D_R_stats['N_total_vote_D'] = N_train_vote_D + N_predict_vote_D
+    D_R_stats['N_total_vote_R'] = N_train_vote_R + N_predict_vote_R
+
+    # save the dict as a csv file
+
+    D_R_stats_df = pd.DataFrame(D_R_stats, index = [0])
+    D_R_stats_df.to_csv(sub_folder_name + 'D_R_stats.csv', index = False)
+
+
+
+    return  Y_target_predict, Xs_new, Xt_new,X_continuous_categorical_train, X_continuous_categorical_test, D_R_stats
+
+
+
 
 
 
