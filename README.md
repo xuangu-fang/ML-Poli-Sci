@@ -9,6 +9,16 @@ Missing value imputation-sklearn:https://scikit-learn.org/stable/modules/impute.
 
 ## log
 
+- 2024/4/18:
+   - add variables: VCF0006a” or “Unique Respondent Number (Cross-year ID for panel cases), voter/non-voter, vote_D/vote_R to the state-wise prediction results
+   - add the one model trained on the whole data and the state-wise model prediction results
+   - add the citation of the ML term in documents
+   - clean the code, make it:
+        - script-run for new data test (apply curent model to new data)
+        - script-run for new data training (model update)
+        - visulization and store results script
+
+
 - 2024/4/11:
    - send documents on lgistic regression + elastic net to the professor
    - make the documetns on data process ( one-hot  ) and missing value imputation
