@@ -11,8 +11,8 @@ Missing value imputation-sklearn:https://scikit-learn.org/stable/modules/impute.
 
 - 2024/4/18-5/30:
    - add variables: VCF0006a” or “Unique Respondent Number (Cross-year ID for panel cases), voter/non-voter, vote_D/vote_R to the state-wise prediction results:
-    - VCF0006a: added
-    - voter/non-voter,vote_D/vote_R: already in the data
+        - VCF0006a: added
+        - voter/non-voter,vote_D/vote_R: already in the data
 
    - add the one model trained on the whole data and the state-wise model prediction results:
         - to do in Friday
