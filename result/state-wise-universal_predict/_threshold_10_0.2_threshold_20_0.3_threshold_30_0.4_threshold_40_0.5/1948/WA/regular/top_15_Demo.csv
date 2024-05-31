@@ -1,16 +1,16 @@
 feature,importance
-Party_id3_1. Democrats (including leaners),1.6143541525549252
-VCF9028_1. Democratic Pres. candidate,1.0388304586083532
-therm_DemParty,0.9778619043779943
-Party_id7_1. Strong Democrat,0.7897219047022973
-Party_id7_3. Independent - Democrat,0.7387408500935775
-ideology7_3. Slightly liberal,0.6761532613855274
-approve_pres_2. Disapprove,0.653377404567961
-howOftenTrust_3. About half the time,0.5753857925471622
-therm_Mislims,0.546603544237179
-education7_1. 8 grades or less ('grade school'),0.5444427427182227
-education6_1. 8 grades or less ('grade school'),0.5444427427182227
-therm_liberals,0.5155661881081615
-authoritarian3_3. Well behaved,0.49176386824833485
-"VCF9030_1. Yes, contact: Democratic party",0.4874305322149005
-"approve_pres_strength_1. Approve, strongly",0.47679945408781893
+Party_id3_1. Democrats (including leaners),1.6144273326661278
+VCF9028_1. Democratic Pres. candidate,1.0384653638743369
+therm_DemParty,0.9778925002373537
+Party_id7_1. Strong Democrat,0.7896244916502393
+Party_id7_3. Independent - Democrat,0.7386323708339889
+ideology7_3. Slightly liberal,0.6764236269327434
+approve_pres_2. Disapprove,0.6532968041832503
+howOftenTrust_3. About half the time,0.5754390124377837
+therm_Mislims,0.5466714879122204
+education7_1. 8 grades or less ('grade school'),0.5443845021833164
+education6_1. 8 grades or less ('grade school'),0.5443845021833164
+therm_liberals,0.5155474755456629
+authoritarian3_3. Well behaved,0.4913588693626666
+"VCF9030_1. Yes, contact: Democratic party",0.4872116950352942
+"approve_pres_strength_1. Approve, strongly",0.4768527263433574

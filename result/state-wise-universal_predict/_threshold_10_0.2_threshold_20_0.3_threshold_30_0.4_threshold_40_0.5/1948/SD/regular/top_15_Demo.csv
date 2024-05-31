@@ -1,16 +1,16 @@
 feature,importance
-Party_id7_1. Strong Democrat,1.164156764786307
-Party_id3_1. Democrats (including leaners),0.9966156247362836
-therm_Mislims,0.856345241505948
-VCF0720_2. Yes,0.5482656255534907
-approve_pres_2. Disapprove,0.5210129261994917
-VCF9028_1. Democratic Pres. candidate,0.5067608205101614
-therm_Whites,0.49349312287388764
-VCF0717_1. No,0.44723078283603535
-VCF9029_3. Win by quite a bit,0.4324954922210827
-Interest_elections_3. Very much interested,0.2871632640430931
-Party_id7_2. Weak Democrat,0.24994613791259992
-"education7_3. 12 grades, diploma or equivalency",0.24713254539926205
-"education6_3. 12 grades, diploma or equivalency",0.24713254539926205
-VCF0130_2. Almost every week (no cases in 1970),0.24386818252325998
-"ideology7_4. Moderate, middle of the road",0.22438192754648587
+Party_id7_1. Strong Democrat,1.1639854438736885
+Party_id3_1. Democrats (including leaners),0.9965034253374286
+therm_Mislims,0.8561383754676637
+VCF0720_2. Yes,0.5482745641683351
+approve_pres_2. Disapprove,0.5208923673584307
+VCF9028_1. Democratic Pres. candidate,0.5070074837086016
+therm_Whites,0.4934859284175063
+VCF0717_1. No,0.44706853269020386
+VCF9029_3. Win by quite a bit,0.4321002159658346
+Interest_elections_3. Very much interested,0.28715353844234465
+Party_id7_2. Weak Democrat,0.24982767059429462
+"education7_3. 12 grades, diploma or equivalency",0.24716034020731778
+"education6_3. 12 grades, diploma or equivalency",0.24716034020731778
+VCF0130_2. Almost every week (no cases in 1970),0.24396412083073882
+"ideology7_4. Moderate, middle of the road",0.22445649288407993

@@ -1,16 +1,16 @@
 feature,importance
-Party_id3_1. Democrats (including leaners),1.4590589364481013
-approve_pres_2. Disapprove,1.4230613808078456
-VCF9028_1. Democratic Pres. candidate,1.1017880001766958
-therm_DemParty,1.0507586525685606
-Party_id7_1. Strong Democrat,1.0041690869462945
-authoritarian3_2. Both (VOL),0.779349363483532
-"approve_pres_strength_2. Approve, not strongly",0.7567619937008904
-ideology7_2. Liberal,0.7370805452325291
-therm_liberals,0.6857660591050397
-VCF0130_7. No religious preference (1970-1988),0.6543689737590943
-authoritarian4_1. Independence,0.6182506504568319
-blackInfluence_Politics_3. Too little influence,0.5896932949333287
-ideology7_7. Extremely conservative,0.526056081167771
-education7_7. Advanced degrees incl. LLB,0.479341859518564
-meetingCommuntySchool_1. Yes,0.4771895249133937
+Party_id3_1. Democrats (including leaners),1.4590700862093369
+approve_pres_2. Disapprove,1.4231036750008743
+VCF9028_1. Democratic Pres. candidate,1.1016946461941792
+therm_DemParty,1.0507489542392008
+Party_id7_1. Strong Democrat,1.0040347395632891
+authoritarian3_2. Both (VOL),0.7793774738741741
+"approve_pres_strength_2. Approve, not strongly",0.7569178605422981
+ideology7_2. Liberal,0.7370597104013517
+therm_liberals,0.6857662351591385
+VCF0130_7. No religious preference (1970-1988),0.6544487812462861
+authoritarian4_1. Independence,0.6181984687437201
+blackInfluence_Politics_3. Too little influence,0.5896926865217079
+ideology7_7. Extremely conservative,0.5259890909013373
+education7_7. Advanced degrees incl. LLB,0.4791863306921056
+meetingCommuntySchool_1. Yes,0.47713953501589124

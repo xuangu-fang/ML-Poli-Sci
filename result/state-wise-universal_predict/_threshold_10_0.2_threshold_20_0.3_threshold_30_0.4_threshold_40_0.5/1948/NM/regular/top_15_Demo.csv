@@ -1,16 +1,16 @@
 feature,importance
-Party_id3_1. Democrats (including leaners),1.175047975742927
-VCF9028_1. Democratic Pres. candidate,0.9318851844895985
-VCF9029_3. Win by quite a bit,0.7468298853345757
-therm_liberals,0.6971339995334115
-"approve_pres_strength_1. Approve, strongly",0.5876299502573474
-Party_id7_1. Strong Democrat,0.45996682915366505
-therm_Blacks,0.43165335504084046
-therm_DemParty,0.4212642346416026
-therm_Mislims,0.3502701144070505
-VCF0130_5. Never (1990 and later: 'No' in filter),0.23781639601188015
-workedWithcommunity_2. No,0.23162279898530364
-approve_president_economy_1. Approve strongly,0.23110735236250468
-approve_pres_1. Approve,0.2144252546208977
-meetingCommuntySchool_1. Yes,0.21197372210562998
-VCF0130_4. A few times a year,0.1606349790014508
+Party_id3_1. Democrats (including leaners),1.1747978034186612
+VCF9028_1. Democratic Pres. candidate,0.9316004854212805
+VCF9029_3. Win by quite a bit,0.7470050182193277
+therm_liberals,0.6970304518854201
+"approve_pres_strength_1. Approve, strongly",0.5879685206339176
+Party_id7_1. Strong Democrat,0.45999852487359794
+therm_Blacks,0.43174057626720697
+therm_DemParty,0.42129764248920576
+therm_Mislims,0.3503056642596288
+VCF0130_5. Never (1990 and later: 'No' in filter),0.23767708030850657
+workedWithcommunity_2. No,0.2316336488148189
+approve_president_economy_1. Approve strongly,0.2308123719688499
+approve_pres_1. Approve,0.2142752377087799
+meetingCommuntySchool_1. Yes,0.21219231896854693
+VCF0130_4. A few times a year,0.16064720288656145

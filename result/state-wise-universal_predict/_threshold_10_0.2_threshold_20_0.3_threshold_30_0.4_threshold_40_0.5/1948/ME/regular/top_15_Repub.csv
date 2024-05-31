@@ -1,16 +1,16 @@
 feature,importance
-Party_id3_3. Republicans (including leaners),-0.8199466120854865
-therm_Christians,-0.8042785400707825
-therm_RepParty,-0.7422594787556396
-VCF0130_5. Never (1990 and later: 'No' in filter),-0.6197375103580379
-religion_1. Protestant,-0.6111913998386204
-ideology7_3. Slightly liberal,-0.5793368796873584
-Party_id7_5. Independent - Republican,-0.5631755771176516
-Party_id7_7. Strong Republican,-0.5121270546412944
-VCF0720_1. No,-0.3891683242072913
-Will_PresElectionClose_1. Will win by quite a bit,-0.3780411700570151
-"ideology7_4. Moderate, middle of the road",-0.3665922605108255
-therm_Whites,-0.30763808543249194
-VCF9028_2. Republican Pres. candidate,-0.2918891042780827
-therm_ChrFundament,-0.2756284523819552
-"approve_pres_strength_3. Disapprove, not strongly",-0.23651994932810436
+Party_id3_3. Republicans (including leaners),-0.8197959953868862
+therm_Christians,-0.8041686149262299
+therm_RepParty,-0.7421315183441122
+VCF0130_5. Never (1990 and later: 'No' in filter),-0.6197129053614835
+religion_1. Protestant,-0.6110703901235457
+ideology7_3. Slightly liberal,-0.5794464853637675
+Party_id7_5. Independent - Republican,-0.5629245385659722
+Party_id7_7. Strong Republican,-0.511923347547174
+VCF0720_1. No,-0.3888866359305464
+Will_PresElectionClose_1. Will win by quite a bit,-0.3779675525013194
+"ideology7_4. Moderate, middle of the road",-0.3666401101314749
+therm_Whites,-0.3076503012715884
+VCF9028_2. Republican Pres. candidate,-0.29198141080459095
+therm_ChrFundament,-0.27571331605591914
+"approve_pres_strength_3. Disapprove, not strongly",-0.23652307677373247

@@ -1,16 +1,16 @@
 feature,importance
-therm_liberals,1.2674483232454694
-therm_DemParty,0.8191938264020309
-Party_id3_1. Democrats (including leaners),0.4179933372034858
-blackInfluence_Politics_3. Too little influence,0.18524274098007573
-therm_hispanics,0.14482673730339918
-living_withFamily_1. Yes,0.06267330576274147
-"ideology7_4. Moderate, middle of the road",0.052918518040230955
-Age,0.04872506928554994
-approve_president_economy_2. Approve not strongly,0.048699883507632005
-Party_id7_3. Independent - Democrat,0.04602125634842355
-therm_Blacks,0.03635994973331793
-satisfactionLife_3. Moderately satisfied,0.030945729156521506
-therm_Mislims,0.02909848195094598
-VCF9029_3. Win by quite a bit,0.01672814449431915
-Family_income_4. 68 to 95 percentile,0.01192684944070431
+therm_liberals,1.2672070516424265
+therm_DemParty,0.8196521263643648
+Party_id3_1. Democrats (including leaners),0.41877179292727584
+blackInfluence_Politics_3. Too little influence,0.1857736827107963
+therm_hispanics,0.14451324970660878
+living_withFamily_1. Yes,0.062497570674545214
+"ideology7_4. Moderate, middle of the road",0.05288890382458293
+approve_president_economy_2. Approve not strongly,0.04870275357333509
+Age,0.04869019877681967
+Party_id7_3. Independent - Democrat,0.045964158069172666
+therm_Blacks,0.03687745286343248
+satisfactionLife_3. Moderately satisfied,0.030980848014153257
+therm_Mislims,0.029105743502034192
+VCF9029_3. Win by quite a bit,0.01662355874159332
+Family_income_4. 68 to 95 percentile,0.011937031803815163

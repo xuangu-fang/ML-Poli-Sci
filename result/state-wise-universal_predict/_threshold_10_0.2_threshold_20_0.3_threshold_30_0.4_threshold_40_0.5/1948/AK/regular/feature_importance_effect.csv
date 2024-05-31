@@ -1,14 +1,14 @@
 feature,importance
-therm_Christians,0.01063675581828636
+therm_Christians,0.010634043541742461
 therm_Mislims,0.0
 therm_ChrFundament,0.0
-therm_hispanics,0.0994550738273234
-therm_RepParty,-0.7282040576110408
-therm_DemParty,0.44019479819719287
-therm_Whites,0.19664460909800036
-therm_liberals,0.09133147647351339
-therm_conservatives,-0.19085347334233244
-therm_Blacks,0.1548018576682126
+therm_hispanics,0.09946019846342488
+therm_RepParty,-0.7281867556882373
+therm_DemParty,0.44016243301288843
+therm_Whites,0.1966464399426397
+therm_liberals,0.09133224124493305
+therm_conservatives,-0.19081475821106492
+therm_Blacks,0.15481209550372213
 Age,0.0
 howOftenTrust_2. Most of the time,0.0
 howOftenTrust_3. About half the time,0.0

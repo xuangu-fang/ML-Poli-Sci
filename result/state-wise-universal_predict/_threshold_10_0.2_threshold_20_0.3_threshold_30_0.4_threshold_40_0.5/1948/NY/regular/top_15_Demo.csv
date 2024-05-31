@@ -1,16 +1,16 @@
 feature,importance
-therm_DemParty,1.2211358097565523
-Party_id3_1. Democrats (including leaners),0.9797083123049463
-VCF9031_1. Yes,0.9664011748683098
-satisfactionDemocracy_1. Very satisfied,0.9325314435214505
-follow_political_info_1. Always,0.9260505214461745
-religion_3. Jewish,0.8581709009516738
-"approve_pres_strength_2. Approve, not strongly",0.7540949463692532
-ideology7_3. Slightly liberal,0.6800340856935291
-votingMakedifference_unmatched category,0.613143590481853
-workedWithcommunity_2. No,0.5989139388262599
-votingMakedifference_unmatched category,0.5835083189240489
-ideology7_2. Liberal,0.5425778766243484
-approve_pres_2. Disapprove,0.5357564298880891
-Party_id7_1. Strong Democrat,0.5252661967562906
-VCF9028_1. Democratic Pres. candidate,0.48386120610743133
+therm_DemParty,1.2211328688493015
+Party_id3_1. Democrats (including leaners),0.9800336369842512
+VCF9031_1. Yes,0.96624638016645
+satisfactionDemocracy_1. Very satisfied,0.9325490494147862
+follow_political_info_1. Always,0.926105654613602
+religion_3. Jewish,0.8580830469719871
+"approve_pres_strength_2. Approve, not strongly",0.7543645994969012
+ideology7_3. Slightly liberal,0.6800670997916376
+votingMakedifference_unmatched category,0.61299648228665
+workedWithcommunity_2. No,0.5989754148020443
+votingMakedifference_unmatched category,0.5833826427083513
+ideology7_2. Liberal,0.5426399001246878
+approve_pres_2. Disapprove,0.5357616322705615
+Party_id7_1. Strong Democrat,0.525250332862941
+VCF9028_1. Democratic Pres. candidate,0.4839045643433126

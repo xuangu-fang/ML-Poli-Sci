@@ -1,16 +1,16 @@
 feature,importance
-therm_DemParty,1.4823967420791124
-ideology7_2. Liberal,0.9860419998923831
-VCF9028_1. Democratic Pres. candidate,0.929785591573338
-approve_pres_2. Disapprove,0.794109129017972
-VCF9031_5. No,0.6896793574722856
-"approve_pres_strength_2. Approve, not strongly",0.6859563781809419
-ideology7_3. Slightly liberal,0.6749833794744531
-therm_liberals,0.5910591154026961
-Race7_5. Hispanic (1966-2012),0.5735122282670984
-Race4_3. Hispanic,0.5735122282670984
-therm_Mislims,0.44488874444360044
-Family_income_2. 17 to 33 percentile,0.33523618528046245
-Interest_elections_2. Somewhat interested,0.30938861405371415
-Age,0.29232995772800735
-VCF0130_3. Once or twice a month,0.2667039531630618
+therm_DemParty,1.4824570108238455
+ideology7_2. Liberal,0.9859874360872152
+VCF9028_1. Democratic Pres. candidate,0.9298059001209827
+approve_pres_2. Disapprove,0.7942020604874379
+VCF9031_5. No,0.6898535727157846
+"approve_pres_strength_2. Approve, not strongly",0.6860814066979787
+ideology7_3. Slightly liberal,0.6750092119145377
+therm_liberals,0.5911079482618016
+Race7_5. Hispanic (1966-2012),0.5737634276694891
+Race4_3. Hispanic,0.5737634276694891
+therm_Mislims,0.4449125832703098
+Family_income_2. 17 to 33 percentile,0.33535320204772134
+Interest_elections_2. Somewhat interested,0.309453287225659
+Age,0.2923008288483587
+VCF0130_3. Once or twice a month,0.2668160932074642

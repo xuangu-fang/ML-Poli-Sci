@@ -1,16 +1,16 @@
 feature,importance
-therm_DemParty,1.2587646099525063
-therm_liberals,0.9209133133021791
-Party_id3_1. Democrats (including leaners),0.16775366615556148
-VCF0130_5. Never (1990 and later: 'No' in filter),0.0701666664294163
-Family_income_3. 34 to 67 percentile,0.053795513386985884
-volunteer_2. No,0.05213386691928792
-VCF9028_1. Democratic Pres. candidate,0.051099580580055
-VCF9029_3. Win by quite a bit,0.04921154391111397
-Age,0.040304360452567925
-therm_Mislims,0.036469533474499785
-VCF0886_1.   Increased,0.03297079189548348
-VCF0890_1.   Increased,0.03210476520126132
-satisfactionDemocracy_2. Fairly satisfied,0.02099197683947558
-therm_Blacks,0.020327831772304187
-therm_ChrFundament,0.016479733858932744
+therm_DemParty,1.2586658269049942
+therm_liberals,0.9208704730717411
+Party_id3_1. Democrats (including leaners),0.1678897329601783
+VCF0130_5. Never (1990 and later: 'No' in filter),0.07022019458587055
+Family_income_3. 34 to 67 percentile,0.05381020237631654
+volunteer_2. No,0.052197409127264616
+VCF9028_1. Democratic Pres. candidate,0.05116005573878648
+VCF9029_3. Win by quite a bit,0.04927167248119231
+Age,0.04031372744512097
+therm_Mislims,0.03646606560934197
+VCF0886_1.   Increased,0.03302535810124544
+VCF0890_1.   Increased,0.032162946950634
+satisfactionDemocracy_2. Fairly satisfied,0.021073466916691944
+therm_Blacks,0.020328971995247812
+therm_ChrFundament,0.01647443724760142

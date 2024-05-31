@@ -1,16 +1,16 @@
 feature,importance
-therm_DemParty,1.5550655599606407
-blackInfluence_Politics_3. Too little influence,1.3200300435792374
-Party_id7_1. Strong Democrat,1.2535047139775175
-Party_id3_1. Democrats (including leaners),1.2387328723814055
-volunteer_1. Yes,0.7336004191346162
-therm_liberals,0.7161677774928839
-Will_PresElectionClose_1. Will win by quite a bit,0.702633691188708
-authoritarian3_2. Both (VOL),0.663555042801766
-howOftenTrust_2. Most of the time,0.4813400968770397
-bisexalFamilyorFriends_2. No,0.47572329974435573
-VCF0130_2. Almost every week (no cases in 1970),0.46777697866371887
-votingMakedifference_5. Can make a big difference,0.4335094832517745
-therm_Blacks,0.3982476143735519
-VCF9028_1. Democratic Pres. candidate,0.35463250579652544
-living_withFamily_1. Yes,0.33056392558122105
+therm_DemParty,1.5550326596444766
+blackInfluence_Politics_3. Too little influence,1.3200503530589691
+Party_id7_1. Strong Democrat,1.253576513088122
+Party_id3_1. Democrats (including leaners),1.238654390094462
+volunteer_1. Yes,0.7334623004518998
+therm_liberals,0.7162002301589625
+Will_PresElectionClose_1. Will win by quite a bit,0.7026331612713376
+authoritarian3_2. Both (VOL),0.6635458477752377
+howOftenTrust_2. Most of the time,0.4812151652951789
+bisexalFamilyorFriends_2. No,0.47567422636732404
+VCF0130_2. Almost every week (no cases in 1970),0.4677395360303781
+votingMakedifference_5. Can make a big difference,0.43350712078693343
+therm_Blacks,0.3982327420975424
+VCF9028_1. Democratic Pres. candidate,0.35467695436979846
+living_withFamily_1. Yes,0.3300358044775228

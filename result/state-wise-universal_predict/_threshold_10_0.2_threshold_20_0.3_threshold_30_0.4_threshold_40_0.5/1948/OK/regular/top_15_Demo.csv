@@ -1,16 +1,16 @@
 feature,importance
-therm_DemParty,1.2948173896071413
-therm_Mislims,1.2378119475098692
-Party_id3_1. Democrats (including leaners),0.8829517104023464
-Family_income_5. 96 to 100 percentile,0.6762857515555559
-Will_PresElectionClose_1. Will win by quite a bit,0.6547537683458946
-VCF0890_1.   Increased,0.6129183862930321
-bisexalFamilyorFriends_2. No,0.5328031758598859
-therm_liberals,0.49367966715973016
-volunteer_1. Yes,0.45301155506028595
-Party_id7_3. Independent - Democrat,0.43588381476711024
-Interest_elections_3. Very much interested,0.40398088333707893
-votingMakedifference_5. Can make a big difference,0.40363175408372787
-blackInfluence_Politics_3. Too little influence,0.32402715034751217
-VCF0886_3.   Decreased (before 2012: or cut out entirely),0.3093476977689733
-ideology7_5. Slightly conservative,0.30093837921356004
+therm_DemParty,1.294797139399393
+therm_Mislims,1.2377912886669944
+Party_id3_1. Democrats (including leaners),0.8830294682856223
+Family_income_5. 96 to 100 percentile,0.6763453284407674
+Will_PresElectionClose_1. Will win by quite a bit,0.6545981288542778
+VCF0890_1.   Increased,0.6130449930785752
+bisexalFamilyorFriends_2. No,0.5327601525283615
+therm_liberals,0.4936449634301344
+volunteer_1. Yes,0.4528582298637268
+Party_id7_3. Independent - Democrat,0.43591175233780166
+Interest_elections_3. Very much interested,0.40389672558821454
+votingMakedifference_5. Can make a big difference,0.4035195848824684
+blackInfluence_Politics_3. Too little influence,0.32403163582896727
+VCF0886_3.   Decreased (before 2012: or cut out entirely),0.3095512901952286
+ideology7_5. Slightly conservative,0.30091329803106404

@@ -1,16 +1,16 @@
 feature,importance
-Party_id3_1. Democrats (including leaners),1.3796958501454908
-Family_income_1. 0 to 16 percentile,1.277306717008224
-therm_DemParty,1.1670448801422342
-therm_liberals,1.0528258680892493
-Party_id7_1. Strong Democrat,0.8363085966438509
-howOftenTrust_2. Most of the time,0.6505485955550622
-blackInfluence_Politics_3. Too little influence,0.6116086291923177
-powerDifference_unmatched category,0.5565342528761801
-Interest_elections_1. Not much interested,0.5174631687481848
-volunteer_2. No,0.47859432187251344
-Family_income_2. 17 to 33 percentile,0.4212864445350535
-VCF0130_4. A few times a year,0.3806547856072507
-VCF0721_2. Yes (includes 'tax check-off' in 1976),0.3478619566399924
-VCF9029_3. Win by quite a bit,0.32015108370736184
-VCF0886_2.   Same,0.27833668746205137
+Party_id3_1. Democrats (including leaners),1.3795663509571574
+Family_income_1. 0 to 16 percentile,1.2773600660024615
+therm_DemParty,1.1670158017466516
+therm_liberals,1.0527818630704906
+Party_id7_1. Strong Democrat,0.8364742559503762
+howOftenTrust_2. Most of the time,0.6507669049886236
+blackInfluence_Politics_3. Too little influence,0.6112045030667298
+powerDifference_unmatched category,0.5571357335709224
+Interest_elections_1. Not much interested,0.5174139476633888
+volunteer_2. No,0.47861756760302077
+Family_income_2. 17 to 33 percentile,0.4214023187950818
+VCF0130_4. A few times a year,0.38069245885879355
+VCF0721_2. Yes (includes 'tax check-off' in 1976),0.34785849792899554
+VCF9029_3. Win by quite a bit,0.32011745999929275
+VCF0886_2.   Same,0.2785834578638283
