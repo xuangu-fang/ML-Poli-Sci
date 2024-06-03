@@ -1,16 +1,16 @@
 feature,importance
-Party_id3_1. Democrats (including leaners),1.4925638694643693
-therm_DemParty,0.8958110241817536
-blackInfluence_Politics_3. Too little influence,0.889776355167841
-VCF9028_1. Democratic Pres. candidate,0.7386990839486881
-authoritarian1_2. Both (VOL),0.716165414707465
-follow_political_info_1. Always,0.7134269114001334
-Race3_2. Black non-Hispanic,0.6703234188356052
-Race7_2. Black non-Hispanic (1948-2012),0.6703234188356052
-Race4_2. Black non-Hispanic,0.6703234188356052
-VCF0720_1. No,0.6419737741584913
-therm_Mislims,0.6178024662878093
-VCF0717_2. Yes,0.585501332248722
-therm_liberals,0.5645841151476383
-workedWithcommunity_1. Yes,0.5230852708662576
-votingMakedifference_1. Won't make a difference,0.4856620138925326
+Party_id3_1. Democrats (including leaners),1.4923843348857437
+therm_DemParty,0.8958383143337126
+blackInfluence_Politics_3. Too little influence,0.8897290112826679
+VCF9028_1. Democratic Pres. candidate,0.7385491983930852
+authoritarian1_2. Both (VOL),0.7161782948114718
+follow_political_info_1. Always,0.7133735154656788
+Race3_2. Black non-Hispanic,0.6701902692685813
+Race7_2. Black non-Hispanic (1948-2012),0.6701902692685813
+Race4_2. Black non-Hispanic,0.6701902692685813
+VCF0720_1. No,0.6417413776052413
+therm_Mislims,0.6177966219716926
+VCF0717_2. Yes,0.5853888919303673
+therm_liberals,0.5645967987850018
+workedWithcommunity_1. Yes,0.522997233420219
+votingMakedifference_1. Won't make a difference,0.48551760588125037

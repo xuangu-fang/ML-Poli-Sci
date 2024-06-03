@@ -1,16 +1,16 @@
 feature,importance
-therm_RepParty,-0.6703846420437918
-Party_id3_3. Republicans (including leaners),-0.6646096350185867
-therm_conservatives,-0.6500885664987051
-Family_income_3. 34 to 67 percentile,-0.6436644610503475
-VCF0717_2. Yes,-0.3380845590863476
-"VCF0721_1. No (includes 'not asked for money' in 1966,1968)",-0.24797277358788855
-Party_id3_2. Independents,-0.23199416219327418
-Party_id7_4. Independent - Independent,-0.23199416219327418
-Party_id7_7. Strong Republican,-0.21866677891827074
-Interest_elections_1. Not much interested,-0.20249870908487524
-VCF9030b_2. No contact by Democratic party,-0.18513446880475168
-Gender_2. Female,-0.17756757967024872
-education7_6. BA level degrees,-0.17703066001708417
-blackInfluence_Politics_2. Just about the right amount,-0.1659145117076723
-authoritarian2_1. Obedience,-0.14861173983847634
+therm_RepParty,-0.6701080826503973
+Party_id3_3. Republicans (including leaners),-0.6646095079396325
+therm_conservatives,-0.6503764511435921
+Family_income_3. 34 to 67 percentile,-0.6435405922327314
+VCF0717_2. Yes,-0.3378615937846582
+"VCF0721_1. No (includes 'not asked for money' in 1966,1968)",-0.24767926512465244
+Party_id3_2. Independents,-0.231923143854126
+Party_id7_4. Independent - Independent,-0.231923143854126
+Party_id7_7. Strong Republican,-0.21865990356784265
+Interest_elections_1. Not much interested,-0.20246117592223856
+VCF9030b_2. No contact by Democratic party,-0.18488574037548897
+Gender_2. Female,-0.17747392528485118
+education7_6. BA level degrees,-0.17717347106617423
+blackInfluence_Politics_2. Just about the right amount,-0.1658490988064582
+authoritarian2_1. Obedience,-0.1482175683403081

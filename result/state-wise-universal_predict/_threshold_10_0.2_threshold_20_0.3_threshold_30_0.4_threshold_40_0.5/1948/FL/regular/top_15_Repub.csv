@@ -1,16 +1,16 @@
 feature,importance
-therm_RepParty,-1.361654797118416
-"approve_pres_strength_3. Disapprove, not strongly",-0.8140869789872361
-VCF9028_2. Republican Pres. candidate,-0.6574402209216854
-ideology7_2. Liberal,-0.6042632015450959
-Party_id3_3. Republicans (including leaners),-0.5968292681955141
-religion_1. Protestant,-0.5248416362169686
-follow_political_info_1. Always,-0.5026932209363746
-VCF0130_4. A few times a year,-0.454422804157579
-satisfactionDemocracy_4. Not at all satisfied,-0.4530979817618174
-ideology7_6. Conservative,-0.4452995626627635
-have_healthInsurance_1. Yes,-0.4151315464782412
-blackInfluence_Politics_1. Too much influence,-0.3930653219440493
-howOftenTrust_4. Once in a while,-0.3898426381694311
-VCF0130_1. Every week (Except 1970: almost every week),-0.3893513764538527
-"approve_pres_strength_4. Disapprove, strongly",-0.3871387732400697
+therm_RepParty,-1.36166010358932
+"approve_pres_strength_3. Disapprove, not strongly",-0.8140264924978304
+VCF9028_2. Republican Pres. candidate,-0.6574637109404478
+ideology7_2. Liberal,-0.6042039427399455
+Party_id3_3. Republicans (including leaners),-0.5970403960591895
+religion_1. Protestant,-0.5252483132930195
+follow_political_info_1. Always,-0.5026531945840629
+VCF0130_4. A few times a year,-0.4542535466329768
+satisfactionDemocracy_4. Not at all satisfied,-0.4531663240488598
+ideology7_6. Conservative,-0.44519934595756894
+have_healthInsurance_1. Yes,-0.41507826562251315
+blackInfluence_Politics_1. Too much influence,-0.39316525424274523
+howOftenTrust_4. Once in a while,-0.3898697227665079
+VCF0130_1. Every week (Except 1970: almost every week),-0.38916698942440464
+"approve_pres_strength_4. Disapprove, strongly",-0.3871312140630824

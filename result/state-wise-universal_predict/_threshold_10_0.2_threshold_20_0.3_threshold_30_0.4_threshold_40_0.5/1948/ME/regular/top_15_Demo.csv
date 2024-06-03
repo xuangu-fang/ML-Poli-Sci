@@ -1,16 +1,16 @@
 feature,importance
-Party_id3_1. Democrats (including leaners),0.7840342126209695
-Party_id7_1. Strong Democrat,0.7493093433271553
-"VCF9030b_1. Yes, contact by Democratic party",0.5760287252984881
-follow_political_info_2. Most of the time,0.44581884360718654
-therm_Blacks,0.4385636687065683
-VCF9030c_2. No contact by Republican party,0.41086398467393925
-approve_pres_2. Disapprove,0.33162441994912395
-VCF9028_1. Democratic Pres. candidate,0.3045649405223956
-Party_id7_6. Weak Republican,0.2784730352740523
-therm_DemParty,0.2319945562883332
-Family_income_1. 0 to 16 percentile,0.1710248032738659
-"approve_pres_strength_1. Approve, strongly",0.12556387528990393
-Gender_2. Female,0.12407937123081603
-therm_Mislims,0.12370491853632218
-Will_PresElectionClose_2. Close race,0.10237724677481483
+Party_id3_1. Democrats (including leaners),0.784016186360724
+Party_id7_1. Strong Democrat,0.7491210760186776
+"VCF9030b_1. Yes, contact by Democratic party",0.5759294619112454
+follow_political_info_2. Most of the time,0.4462567015405363
+therm_Blacks,0.43854909546025594
+VCF9030c_2. No contact by Republican party,0.41101047063698193
+approve_pres_2. Disapprove,0.3317237028057634
+VCF9028_1. Democratic Pres. candidate,0.304574397923283
+Party_id7_6. Weak Republican,0.27832618922712105
+therm_DemParty,0.23203529537868534
+Family_income_1. 0 to 16 percentile,0.17108548113607722
+"approve_pres_strength_1. Approve, strongly",0.12540500300692808
+Gender_2. Female,0.12413388751461188
+therm_Mislims,0.12375854919454901
+Will_PresElectionClose_2. Close race,0.10236626026715485

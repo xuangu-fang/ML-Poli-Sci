@@ -1,16 +1,16 @@
 feature,importance
-approve_pres_1. Approve,-1.4125720829686779
-Party_id3_3. Republicans (including leaners),-1.3808104612169019
-Party_id7_7. Strong Republican,-1.1740942430966304
-therm_ChrFundament,-0.7706482522351817
-"approve_pres_strength_3. Disapprove, not strongly",-0.7596592889974045
-VCF0886_3.   Decreased (before 2012: or cut out entirely),-0.7315459363908271
-"approve_pres_strength_4. Disapprove, strongly",-0.6940655356798061
-howOftenTrust_5. Never,-0.680123535272372
-VCF0130_1. Every week (Except 1970: almost every week),-0.6777186519224018
-Family_income_2. 17 to 33 percentile,-0.5821794080637634
-therm_conservatives,-0.5266238730499773
-authoritarian4_1. Independence,-0.49179904982026856
-powerDifference_1. It doesn't make a difference who is in power,-0.4903156402184708
-votingMakedifference_1. Won't make a difference,-0.43292475834525623
-religion_2. Catholic [Roman Catholic],-0.42609530955833075
+approve_pres_1. Approve,-1.4124934901527024
+Party_id3_3. Republicans (including leaners),-1.3807556101917855
+Party_id7_7. Strong Republican,-1.174014378308522
+therm_ChrFundament,-0.7706759972643494
+"approve_pres_strength_3. Disapprove, not strongly",-0.7596468366445446
+VCF0886_3.   Decreased (before 2012: or cut out entirely),-0.7313811724938575
+"approve_pres_strength_4. Disapprove, strongly",-0.6940972724934893
+howOftenTrust_5. Never,-0.680354046351953
+VCF0130_1. Every week (Except 1970: almost every week),-0.6775562459663339
+Family_income_2. 17 to 33 percentile,-0.5819256170085949
+therm_conservatives,-0.5266436939985188
+authoritarian4_1. Independence,-0.4916608624230566
+powerDifference_1. It doesn't make a difference who is in power,-0.4903972179364559
+votingMakedifference_1. Won't make a difference,-0.4329101472256947
+religion_2. Catholic [Roman Catholic],-0.4260218747794404

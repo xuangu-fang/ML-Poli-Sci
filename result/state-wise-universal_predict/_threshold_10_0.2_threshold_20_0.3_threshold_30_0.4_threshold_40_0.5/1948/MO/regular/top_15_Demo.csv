@@ -1,16 +1,16 @@
 feature,importance
-Party_id3_1. Democrats (including leaners),1.8666076462179138
-Party_id7_1. Strong Democrat,1.448267156065077
-VCF9028_1. Democratic Pres. candidate,1.0207895983400281
-approve_president_economy_2. Approve not strongly,0.9577740966283015
-"approve_pres_strength_1. Approve, strongly",0.8505955405956354
-therm_DemParty,0.7715037990458697
-therm_liberals,0.6802090886445072
-powerDifference_unmatched category,0.6016505119231541
-VCF0886_1.   Increased,0.5998601658836464
-Race7_2. Black non-Hispanic (1948-2012),0.5666776575730135
-Race3_2. Black non-Hispanic,0.5666776575730135
-Race4_2. Black non-Hispanic,0.5666776575730135
-volunteer_1. Yes,0.479305122281791
-Age,0.468722264599556
-Party_id7_3. Independent - Democrat,0.4442515756974438
+Party_id3_1. Democrats (including leaners),1.8665406257106618
+Party_id7_1. Strong Democrat,1.4484087209194108
+VCF9028_1. Democratic Pres. candidate,1.0208850417449975
+approve_president_economy_2. Approve not strongly,0.9577658977278565
+"approve_pres_strength_1. Approve, strongly",0.8503674251035631
+therm_DemParty,0.7714685669667729
+therm_liberals,0.6802117918644848
+powerDifference_unmatched category,0.6015616394011396
+VCF0886_1.   Increased,0.600032072708235
+Race7_2. Black non-Hispanic (1948-2012),0.5669217118859237
+Race3_2. Black non-Hispanic,0.5669217118859237
+Race4_2. Black non-Hispanic,0.5669217118859237
+volunteer_1. Yes,0.4792946200389969
+Age,0.4687096427359778
+Party_id7_3. Independent - Democrat,0.4443540869595498

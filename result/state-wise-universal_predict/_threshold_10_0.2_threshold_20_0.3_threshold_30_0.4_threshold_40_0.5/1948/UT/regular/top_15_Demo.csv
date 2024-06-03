@@ -1,16 +1,16 @@
 feature,importance
-Party_id3_1. Democrats (including leaners),1.5478945516177163
-Party_id7_1. Strong Democrat,0.9410192989160004
-VCF0130_4. A few times a year,0.8570267298071638
-Party_id7_2. Weak Democrat,0.8294487104723217
-therm_DemParty,0.6913753906546513
-Interest_elections_1. Not much interested,0.5972936879927045
-blackInfluence_Politics_3. Too little influence,0.446955527273959
-VCF0886_2.   Same,0.3463662988649336
-therm_liberals,0.3347315465720487
-therm_hispanics,0.30055589092785706
-VCF9029_1. Close race,0.2749524950846376
-votingMakedifference_unmatched category,0.24836166938439094
-authoritarian2_3. Self-reliance,0.24013680012394678
-powerDifference_5. It makes a big difference who is in power,0.2364694802395583
-ideology7_3. Slightly liberal,0.22930536898398662
+Party_id3_1. Democrats (including leaners),1.5477269687621145
+Party_id7_1. Strong Democrat,0.9412047213301609
+VCF0130_4. A few times a year,0.8572349245067776
+Party_id7_2. Weak Democrat,0.8297291286446438
+therm_DemParty,0.6913929764743723
+Interest_elections_1. Not much interested,0.5973622238398333
+blackInfluence_Politics_3. Too little influence,0.4468156353180361
+VCF0886_2.   Same,0.3463200840859389
+therm_liberals,0.33471386431091366
+therm_hispanics,0.30056036526094065
+VCF9029_1. Close race,0.27511123828208844
+votingMakedifference_unmatched category,0.24828184796796943
+authoritarian2_3. Self-reliance,0.24014151697246344
+powerDifference_5. It makes a big difference who is in power,0.2364863531501334
+ideology7_3. Slightly liberal,0.22934985324134036

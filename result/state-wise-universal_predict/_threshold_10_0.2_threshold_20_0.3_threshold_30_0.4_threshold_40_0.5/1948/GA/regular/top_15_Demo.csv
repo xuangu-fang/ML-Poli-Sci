@@ -1,16 +1,16 @@
 feature,importance
-Party_id7_1. Strong Democrat,1.6285965879335353
-therm_DemParty,1.317177345439726
-approve_president_economy_2. Approve not strongly,0.9854979236917722
-blackInfluence_Politics_3. Too little influence,0.6583080130823717
-therm_Blacks,0.6224874482999974
-have_healthInsurance_2. No,0.4982627817574568
-authoritarian3_3. Well behaved,0.4709070629738982
-Party_id3_1. Democrats (including leaners),0.4584747947456783
-"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.4502308654287727
-"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.4502308654287727
-ideology7_3. Slightly liberal,0.42907182565157065
-VCF9028_1. Democratic Pres. candidate,0.4073372659341278
-therm_liberals,0.3633785279845708
-authoritarian1_1. Curiosity,0.3622869089775249
-approve_pres_2. Disapprove,0.34815377505717804
+Party_id7_1. Strong Democrat,1.62907255897107
+therm_DemParty,1.3171284144179882
+approve_president_economy_2. Approve not strongly,0.9858818638679983
+blackInfluence_Politics_3. Too little influence,0.6576171729635026
+therm_Blacks,0.6223437113052044
+have_healthInsurance_2. No,0.49828218220689263
+authoritarian3_3. Well behaved,0.470896960637681
+Party_id3_1. Democrats (including leaners),0.4575383877870589
+"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.45003059038396775
+"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.45003059038396775
+ideology7_3. Slightly liberal,0.42881481284119216
+VCF9028_1. Democratic Pres. candidate,0.4061790681734421
+therm_liberals,0.36343417472253225
+authoritarian1_1. Curiosity,0.36221878671265734
+approve_pres_2. Disapprove,0.3480087879124385

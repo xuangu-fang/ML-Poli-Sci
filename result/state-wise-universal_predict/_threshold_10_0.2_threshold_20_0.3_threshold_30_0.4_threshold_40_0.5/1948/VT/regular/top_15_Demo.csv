@@ -1,16 +1,16 @@
 feature,importance
-therm_DemParty,0.6482197115296033
-bisexalFamilyorFriends_1. Yes,0.48051638472818237
-blackInfluence_Politics_3. Too little influence,0.2937819531388608
-votingMakedifference_unmatched category,0.18478443160856645
-satisfactionDemocracy_2. Fairly satisfied,0.1834497819163524
-Age,0.16644617693043265
-VCF0890_1.   Increased,0.14423343064086
-VCF0886_1.   Increased,0.09975311473401043
-follow_political_info_2. Most of the time,0.08159678125816103
-VCF9028_1. Democratic Pres. candidate,0.06997250928784435
-VCF0717_2. Yes,0.06119893406644837
-volunteer_2. No,0.04758063680215322
-authoritarian1_1. Curiosity,0.04100710070656259
-Party_id3_1. Democrats (including leaners),0.030473321477479182
-VCF9029_3. Win by quite a bit,0.020044085547724272
+therm_DemParty,0.6481306379269073
+bisexalFamilyorFriends_1. Yes,0.4805216808692549
+blackInfluence_Politics_3. Too little influence,0.2937521936953214
+votingMakedifference_unmatched category,0.18476144480797463
+satisfactionDemocracy_2. Fairly satisfied,0.18339116151916743
+Age,0.16639095339833926
+VCF0890_1.   Increased,0.14431746318547584
+VCF0886_1.   Increased,0.09988702160286825
+follow_political_info_2. Most of the time,0.08160494538637908
+VCF9028_1. Democratic Pres. candidate,0.07018129148419193
+VCF0717_2. Yes,0.06122880837902395
+volunteer_2. No,0.04761620780197746
+authoritarian1_1. Curiosity,0.041054914356964234
+Party_id3_1. Democrats (including leaners),0.030449494205358214
+VCF9029_3. Win by quite a bit,0.02000837265949343

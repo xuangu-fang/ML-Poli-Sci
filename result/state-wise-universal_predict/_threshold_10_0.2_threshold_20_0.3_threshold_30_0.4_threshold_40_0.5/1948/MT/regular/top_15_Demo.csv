@@ -1,16 +1,16 @@
 feature,importance
-therm_DemParty,0.8666704921895805
-Party_id3_1. Democrats (including leaners),0.7630257319714776
-therm_Mislims,0.6490214690818616
-therm_liberals,0.4389407306430206
-blackInfluence_Politics_3. Too little influence,0.4344433905728108
-VCF0886_1.   Increased,0.20055079731901926
-approve_president_economy_2. Approve not strongly,0.08147066868814315
-follow_political_info_2. Most of the time,0.07966034205466402
-Party_id7_1. Strong Democrat,0.07839920214487664
-howOftenTrust_2. Most of the time,0.07032300502290276
-Gender_1. Male,0.060431747283374596
-VCF9029_3. Win by quite a bit,0.03305353358759075
-therm_hispanics,0.03084049111861182
-votingMakedifference_unmatched category,0.02700673216996747
-authoritarian4_1. Independence,0.02640382428805415
+therm_DemParty,0.8666388322913514
+Party_id3_1. Democrats (including leaners),0.7630885081598425
+therm_Mislims,0.6490428815201866
+therm_liberals,0.43888521769813005
+blackInfluence_Politics_3. Too little influence,0.43455586086061243
+VCF0886_1.   Increased,0.20074175354347806
+approve_president_economy_2. Approve not strongly,0.08140074178602415
+follow_political_info_2. Most of the time,0.07965053469649479
+Party_id7_1. Strong Democrat,0.07838928110869904
+howOftenTrust_2. Most of the time,0.07029017292746108
+Gender_1. Male,0.060464203535688946
+VCF9029_3. Win by quite a bit,0.03304914512805882
+therm_hispanics,0.030854453977271233
+votingMakedifference_unmatched category,0.027020052657739185
+authoritarian4_1. Independence,0.026443898823782924

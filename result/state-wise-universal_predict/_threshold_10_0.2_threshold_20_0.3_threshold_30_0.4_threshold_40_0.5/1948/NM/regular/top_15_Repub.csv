@@ -1,16 +1,16 @@
 feature,importance
-therm_RepParty,-1.0694042736117844
-Party_id3_3. Republicans (including leaners),-0.98118561183773
-votingMakedifference_5. Can make a big difference,-0.8538921218149055
-howOftenTrust_3. About half the time,-0.4524335598818456
-VCF0720_1. No,-0.4316862397339164
-VCF9030b_2. No contact by Democratic party,-0.36096544033822303
-therm_ChrFundament,-0.3273577627909943
-blackInfluence_Politics_1. Too much influence,-0.32229772419546443
-Party_id7_7. Strong Republican,-0.30720663307681073
-religion_1. Protestant,-0.2881139059894922
-"VCF9030c_1. Yes, contact by Republican party",-0.2756095807418241
-Party_id7_6. Weak Republican,-0.2645594970271378
-powerDifference_unmatched category,-0.2257763209214315
-therm_conservatives,-0.20813075755665963
-VCF9029_1. Close race,-0.20494171088576957
+therm_RepParty,-1.0693777420768686
+Party_id3_3. Republicans (including leaners),-0.9813488743718205
+votingMakedifference_5. Can make a big difference,-0.85406812108229
+howOftenTrust_3. About half the time,-0.4523754373148458
+VCF0720_1. No,-0.4316452305260546
+VCF9030b_2. No contact by Democratic party,-0.36084427838715205
+therm_ChrFundament,-0.32745218136588866
+blackInfluence_Politics_1. Too much influence,-0.3223118653594718
+Party_id7_7. Strong Republican,-0.3068187165544503
+religion_1. Protestant,-0.2880266859792552
+"VCF9030c_1. Yes, contact by Republican party",-0.2755899559116505
+Party_id7_6. Weak Republican,-0.2644081935285497
+powerDifference_unmatched category,-0.22570285021862002
+therm_conservatives,-0.20818119853783937
+VCF9029_1. Close race,-0.20481675248266734

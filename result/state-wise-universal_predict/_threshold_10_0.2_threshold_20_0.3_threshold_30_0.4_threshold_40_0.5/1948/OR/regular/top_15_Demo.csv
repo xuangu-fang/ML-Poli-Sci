@@ -1,16 +1,16 @@
 feature,importance
-Party_id3_1. Democrats (including leaners),1.49432969475281
-Party_id7_1. Strong Democrat,1.4870141422944703
-therm_DemParty,1.431912306400831
-therm_hispanics,0.6320422105653464
-approve_pres_2. Disapprove,0.6153445991171461
-ideology7_2. Liberal,0.579048999804406
-VCF9028_1. Democratic Pres. candidate,0.49859129137270647
-volunteer_2. No,0.45230089094713594
-Party_id7_3. Independent - Democrat,0.447108429568139
-approve_president_economy_2. Approve not strongly,0.41564306077955815
-VCF0130_2. Almost every week (no cases in 1970),0.39637433298439567
-authoritarian4_1. Independence,0.3909036751952409
-therm_liberals,0.3897963033484599
-VCF9031_5. No,0.3767492059574118
-"approve_pres_strength_3. Disapprove, not strongly",0.35008192213723116
+Party_id3_1. Democrats (including leaners),1.4945556172355114
+Party_id7_1. Strong Democrat,1.4869085952104413
+therm_DemParty,1.4318705188426963
+therm_hispanics,0.6320535602802004
+approve_pres_2. Disapprove,0.6157557835592047
+ideology7_2. Liberal,0.5791902641277401
+VCF9028_1. Democratic Pres. candidate,0.4986879751319201
+volunteer_2. No,0.4526688823308357
+Party_id7_3. Independent - Democrat,0.44708443562232014
+approve_president_economy_2. Approve not strongly,0.4155279181682291
+VCF0130_2. Almost every week (no cases in 1970),0.39666237234424073
+authoritarian4_1. Independence,0.39121406713419693
+therm_liberals,0.3897682772808853
+VCF9031_5. No,0.3773695677267147
+"approve_pres_strength_3. Disapprove, not strongly",0.34995709462357055

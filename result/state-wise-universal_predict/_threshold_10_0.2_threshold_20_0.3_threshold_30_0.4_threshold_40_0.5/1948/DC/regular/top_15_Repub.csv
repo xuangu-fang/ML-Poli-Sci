@@ -1,14 +1,14 @@
 feature,importance
-therm_conservatives,-0.7262224569525457
-Family_income_5. 96 to 100 percentile,-0.5571758953313648
-"education7_4. 12 grades, diploma or equivalency plus non-academic",-0.19599897536415606
-"education6_4. 12 grades, diploma or equivalency plus non-academic",-0.19599897536415606
-religion_2. Catholic [Roman Catholic],-0.1323060028012008
-therm_ChrFundament,-0.024246373936107384
-therm_RepParty,-0.012723204995588882
-Race7_1. White non-Hispanic (1948-2012),-0.008152793012493597
-Race3_1. White non-Hispanic,-0.008152793012493597
-Race4_1. White non-Hispanic,-0.008152793012493597
+therm_conservatives,-0.726177764056474
+Family_income_5. 96 to 100 percentile,-0.5570335015620447
+"education7_4. 12 grades, diploma or equivalency plus non-academic",-0.19592007558582977
+"education6_4. 12 grades, diploma or equivalency plus non-academic",-0.19592007558582977
+religion_2. Catholic [Roman Catholic],-0.13221593183163324
+therm_ChrFundament,-0.02423898635625756
+therm_RepParty,-0.012715458390515536
+Race7_1. White non-Hispanic (1948-2012),-0.008105820496617682
+Race3_1. White non-Hispanic,-0.008105820496617682
+Race4_1. White non-Hispanic,-0.008105820496617682
 "VCF9030a_1. Yes, contact by major party",0.0
 VCF9030a_2. No contact by major party,0.0
 "VCF9030_1. Yes, contact: Democratic party",0.0

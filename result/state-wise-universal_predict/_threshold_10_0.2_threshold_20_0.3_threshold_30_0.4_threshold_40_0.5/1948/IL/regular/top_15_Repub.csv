@@ -1,16 +1,16 @@
 feature,importance
-Party_id7_7. Strong Republican,-1.241573199826893
-Party_id3_3. Republicans (including leaners),-1.2301678231838684
-therm_RepParty,-0.8506140561161871
-therm_conservatives,-0.7839732791992746
-"approve_pres_strength_3. Disapprove, not strongly",-0.7064801895619442
-howOftenTrust_3. About half the time,-0.6699971512956887
-VCF0130_1. Every week (Except 1970: almost every week),-0.5334306102489224
-"VCF9030_4. Yes, contact: other",-0.5321832800411643
-VCF9029_3. Win by quite a bit,-0.5289371114215751
-VCF9028_2. Republican Pres. candidate,-0.5158980343504826
-ideology7_6. Conservative,-0.4621544296041088
-approve_pres_1. Approve,-0.43790124853059087
-powerDifference_unmatched category,-0.42995951133506455
-votingMakedifference_1. Won't make a difference,-0.4147163912090594
-therm_Christians,-0.4043011372818145
+Party_id7_7. Strong Republican,-1.2416559381894474
+Party_id3_3. Republicans (including leaners),-1.2300815462478405
+therm_RepParty,-0.8506094480220565
+therm_conservatives,-0.783975186207993
+"approve_pres_strength_3. Disapprove, not strongly",-0.7064784208624271
+howOftenTrust_3. About half the time,-0.6699921048027455
+VCF0130_1. Every week (Except 1970: almost every week),-0.5334315271210776
+"VCF9030_4. Yes, contact: other",-0.532062798936569
+VCF9029_3. Win by quite a bit,-0.5289697238771053
+VCF9028_2. Republican Pres. candidate,-0.5158649001271469
+ideology7_6. Conservative,-0.46216980671362135
+approve_pres_1. Approve,-0.43787313178611564
+powerDifference_unmatched category,-0.4299474028152499
+votingMakedifference_1. Won't make a difference,-0.4147056087020623
+therm_Christians,-0.40429898647343177

@@ -1,16 +1,16 @@
 feature,importance
-therm_RepParty,-1.0975943220523636
-ideology7_1. Extremely liberal,-1.0277747465039502
-Family_income_5. 96 to 100 percentile,-1.0075265615396907
-Party_id7_7. Strong Republican,-0.9527540965845853
-approve_pres_1. Approve,-0.8214483970306053
-Party_id3_3. Republicans (including leaners),-0.8068744697637639
-VCF9028_2. Republican Pres. candidate,-0.7054258609536472
-satisfactionDemocracy_4. Not at all satisfied,-0.6925206458805888
-approve_president_economy_1. Approve strongly,-0.651019976445023
-therm_conservatives,-0.6374212951339208
-authoritarian3_2. Both (VOL),-0.6252970383074579
-powerDifference_unmatched category,-0.5878913907710115
-religion_1. Protestant,-0.524764825901544
-satisfactionLife_4. Slightly satisfied,-0.4912673634458568
-"approve_pres_strength_4. Disapprove, strongly",-0.4678963889500756
+therm_RepParty,-1.0975999716011056
+ideology7_1. Extremely liberal,-1.0278004250805244
+Family_income_5. 96 to 100 percentile,-1.0075381030885506
+Party_id7_7. Strong Republican,-0.9527496524148484
+approve_pres_1. Approve,-0.8214667973857814
+Party_id3_3. Republicans (including leaners),-0.8070796760451572
+VCF9028_2. Republican Pres. candidate,-0.705376397079182
+satisfactionDemocracy_4. Not at all satisfied,-0.6925402889474179
+approve_president_economy_1. Approve strongly,-0.6509636944089835
+therm_conservatives,-0.6374211286773074
+authoritarian3_2. Both (VOL),-0.6253609431788656
+powerDifference_unmatched category,-0.5880617039345564
+religion_1. Protestant,-0.5247065233720147
+satisfactionLife_4. Slightly satisfied,-0.4913104582359205
+"approve_pres_strength_4. Disapprove, strongly",-0.46825082378590227

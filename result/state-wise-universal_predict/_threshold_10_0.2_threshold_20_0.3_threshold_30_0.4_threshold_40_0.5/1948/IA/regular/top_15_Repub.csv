@@ -1,16 +1,16 @@
 feature,importance
-Party_id3_3. Republicans (including leaners),-1.425046846144596
-Family_income_2. 17 to 33 percentile,-1.1512703269718776
-therm_RepParty,-1.0815342931973544
-Party_id7_7. Strong Republican,-0.8499188988036191
-therm_conservatives,-0.6140089896715947
-VCF9028_2. Republican Pres. candidate,-0.5963582376931258
-ideology7_3. Slightly liberal,-0.4974334386598637
-Race7_1. White non-Hispanic (1948-2012),-0.4785650423657975
-Race3_1. White non-Hispanic,-0.4785650423657975
-Race4_1. White non-Hispanic,-0.4785650423657975
-ideology7_6. Conservative,-0.39896409642105785
-Party_id7_4. Independent - Independent,-0.3741020816989531
-Party_id3_2. Independents,-0.3741020816989531
-volunteer_1. Yes,-0.3620719066298189
-VCF0718_1. No,-0.3376696304104586
+Party_id3_3. Republicans (including leaners),-1.4252485726746114
+Family_income_2. 17 to 33 percentile,-1.1512388984320476
+therm_RepParty,-1.081579333026772
+Party_id7_7. Strong Republican,-0.8498625203142334
+therm_conservatives,-0.6140083694661412
+VCF9028_2. Republican Pres. candidate,-0.5964666398649233
+ideology7_3. Slightly liberal,-0.4973577721957148
+Race7_1. White non-Hispanic (1948-2012),-0.47869728298656433
+Race3_1. White non-Hispanic,-0.47869728298656433
+Race4_1. White non-Hispanic,-0.47869728298656433
+ideology7_6. Conservative,-0.39891563526184537
+Party_id7_4. Independent - Independent,-0.374162433093174
+Party_id3_2. Independents,-0.374162433093174
+volunteer_1. Yes,-0.36200210035318053
+VCF0718_1. No,-0.33772689960542773

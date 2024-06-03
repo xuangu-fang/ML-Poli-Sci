@@ -1,16 +1,16 @@
 feature,importance
-therm_liberals,1.3410271275939711
-therm_DemParty,1.2028186409534205
-Party_id3_1. Democrats (including leaners),1.0224585236775228
-Party_id7_1. Strong Democrat,0.8581626276017034
-VCF9028_1. Democratic Pres. candidate,0.7460809736318152
-authoritarian1_1. Curiosity,0.6767049664395801
-Race4_2. Black non-Hispanic,0.4685381476285085
-Race7_2. Black non-Hispanic (1948-2012),0.4685381476285085
-Race3_2. Black non-Hispanic,0.4685381476285085
-Will_PresElectionClose_2. Close race,0.4377002027423612
-approve_president_economy_4. Disapprove not strongly,0.4263165133968906
-VCF9030a_2. No contact by major party,0.416385444056644
-VCF9030_7. No contact,0.4102253526527492
-blackInfluence_Politics_3. Too little influence,0.3469803567845949
-Interest_elections_2. Somewhat interested,0.33471388666378804
+therm_liberals,1.3409724579642432
+therm_DemParty,1.202888386784934
+Party_id3_1. Democrats (including leaners),1.022642203681679
+Party_id7_1. Strong Democrat,0.8580538063693982
+VCF9028_1. Democratic Pres. candidate,0.7461959232493249
+authoritarian1_1. Curiosity,0.6769560896721656
+Race4_2. Black non-Hispanic,0.4687928174128636
+Race7_2. Black non-Hispanic (1948-2012),0.4687928174128636
+Race3_2. Black non-Hispanic,0.4687928174128636
+Will_PresElectionClose_2. Close race,0.4377515344797967
+approve_president_economy_4. Disapprove not strongly,0.42638679006904023
+VCF9030a_2. No contact by major party,0.41657328136965593
+VCF9030_7. No contact,0.41039437442074495
+blackInfluence_Politics_3. Too little influence,0.3471097772719009
+Interest_elections_2. Somewhat interested,0.3348506817195517

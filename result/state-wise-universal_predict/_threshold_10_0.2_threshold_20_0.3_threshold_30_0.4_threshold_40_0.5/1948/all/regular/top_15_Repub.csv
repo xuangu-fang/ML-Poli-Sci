@@ -1,16 +1,16 @@
 feature,importance
-"approve_pres_strength_3. Disapprove, not strongly",-1.5618181135780342
-"approve_pres_strength_4. Disapprove, strongly",-1.3114192112434355
-therm_RepParty,-0.9251440558692844
-Party_id3_3. Republicans (including leaners),-0.9068009465019233
-Party_id7_7. Strong Republican,-0.902421430988834
-approve_pres_1. Approve,-0.8479916141774275
-satisfactionDemocracy_4. Not at all satisfied,-0.6138133498168409
-VCF0890_3.   Decreased (before 2012: or cut out entirely),-0.5579996687358613
-blackInfluence_Politics_1. Too much influence,-0.49508282999065073
-howOftenTrust_1. Always,-0.4696575794152813
-VCF9028_2. Republican Pres. candidate,-0.45429635163264803
-therm_conservatives,-0.4398424766991275
-Family_income_5. 96 to 100 percentile,-0.357159220977429
-"VCF9030_4. Yes, contact: other",-0.33147198812962575
-sex_orientation_2. Bisexual,-0.284424232818307
+"approve_pres_strength_3. Disapprove, not strongly",-1.5618436159696274
+"approve_pres_strength_4. Disapprove, strongly",-1.311445119942257
+therm_RepParty,-0.9251443374862001
+Party_id3_3. Republicans (including leaners),-0.9069239173927854
+Party_id7_7. Strong Republican,-0.9024507085986574
+approve_pres_1. Approve,-0.8480025317248708
+satisfactionDemocracy_4. Not at all satisfied,-0.6138150165927643
+VCF0890_3.   Decreased (before 2012: or cut out entirely),-0.5580032892772382
+blackInfluence_Politics_1. Too much influence,-0.49497775955574286
+howOftenTrust_1. Always,-0.469778182655116
+VCF9028_2. Republican Pres. candidate,-0.45429603717123646
+therm_conservatives,-0.43984234089352503
+Family_income_5. 96 to 100 percentile,-0.3571589969375697
+"VCF9030_4. Yes, contact: other",-0.3316344554398716
+sex_orientation_2. Bisexual,-0.2844318367404967

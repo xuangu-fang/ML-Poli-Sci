@@ -1,16 +1,16 @@
 feature,importance
-therm_DemParty,1.748425714496647
-Party_id3_1. Democrats (including leaners),1.1539266573225395
-Party_id7_1. Strong Democrat,0.47414889380303304
-therm_Mislims,0.4445885130810215
-approve_pres_2. Disapprove,0.425695421073336
-therm_hispanics,0.39873888220796294
-"VCF9030_3. Yes, contact: both major parties",0.3440674829811862
-"VCF9030b_1. Yes, contact by Democratic party",0.31017764182268487
-therm_liberals,0.2319430737216755
-"education7_3. 12 grades, diploma or equivalency",0.22173256690327564
-"education6_3. 12 grades, diploma or equivalency",0.22173256690327564
-ideology7_3. Slightly liberal,0.16952027494150296
-Family_income_2. 17 to 33 percentile,0.16867531928963717
-VCF0130_2. Almost every week (no cases in 1970),0.1663914351576757
-authoritarian2_1. Obedience,0.16517673410924927
+therm_DemParty,1.7483058748036762
+Party_id3_1. Democrats (including leaners),1.1537437246064663
+Party_id7_1. Strong Democrat,0.4740483785393225
+therm_Mislims,0.4443655572782905
+approve_pres_2. Disapprove,0.42557197526224944
+therm_hispanics,0.3987273687865074
+"VCF9030_3. Yes, contact: both major parties",0.3439563273751426
+"VCF9030b_1. Yes, contact by Democratic party",0.3097466195102144
+therm_liberals,0.23196361758967923
+"education7_3. 12 grades, diploma or equivalency",0.22173402802002853
+"education6_3. 12 grades, diploma or equivalency",0.22173402802002853
+ideology7_3. Slightly liberal,0.16960005863361813
+Family_income_2. 17 to 33 percentile,0.16844419430754332
+VCF0130_2. Almost every week (no cases in 1970),0.1661564758938246
+authoritarian2_1. Obedience,0.16502849423207952

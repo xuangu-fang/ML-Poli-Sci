@@ -1,16 +1,16 @@
 feature,importance
-therm_DemParty,1.3566528884056517
-Party_id3_1. Democrats (including leaners),1.3133394680038395
-Party_id7_1. Strong Democrat,0.9453727583851499
-therm_liberals,0.8290258363723192
-VCF0130_4. A few times a year,0.6870411736342463
-therm_Mislims,0.5923372240932957
-"approve_pres_strength_4. Disapprove, strongly",0.5556204117675603
-VCF0130_3. Once or twice a month,0.42762251662394535
-ideology7_3. Slightly liberal,0.3926560386530767
-howOftenTrust_3. About half the time,0.3892044312301228
-"education6_3. 12 grades, diploma or equivalency",0.3719328176297083
-"education7_3. 12 grades, diploma or equivalency",0.3719328176297083
-have_healthInsurance_1. Yes,0.36469035616134987
-VCF0890_1.   Increased,0.3558461305536542
-Age,0.3475149676796004
+therm_DemParty,1.356636382098839
+Party_id3_1. Democrats (including leaners),1.3136323929253688
+Party_id7_1. Strong Democrat,0.9453966330342872
+therm_liberals,0.8290035661315149
+VCF0130_4. A few times a year,0.6872013676133821
+therm_Mislims,0.5923480184568433
+"approve_pres_strength_4. Disapprove, strongly",0.5556978461823407
+VCF0130_3. Once or twice a month,0.42758625139717754
+ideology7_3. Slightly liberal,0.3927113831335534
+howOftenTrust_3. About half the time,0.3891557457226928
+"education6_3. 12 grades, diploma or equivalency",0.37192329560454385
+"education7_3. 12 grades, diploma or equivalency",0.37192329560454385
+have_healthInsurance_1. Yes,0.3648634964000939
+VCF0890_1.   Increased,0.3558539491563108
+Age,0.3475164503864242

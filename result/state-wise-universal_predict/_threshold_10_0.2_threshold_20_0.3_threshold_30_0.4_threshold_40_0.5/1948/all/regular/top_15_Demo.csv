@@ -1,16 +1,16 @@
 feature,importance
-approve_pres_2. Disapprove,1.5165100745081326
-Party_id3_1. Democrats (including leaners),1.0449033948760982
-therm_DemParty,0.8999076169169757
-Party_id7_1. Strong Democrat,0.8988412816527653
-"approve_pres_strength_2. Approve, not strongly",0.8680278241284662
-"approve_pres_strength_1. Approve, strongly",0.8019433070683493
-sex_orientation_3. Homosexual or gay (or lesbian),0.7631737166820624
-blackInfluence_Politics_3. Too little influence,0.7021538198522925
-religion_3. Jewish,0.701787039337372
-VCF9028_1. Democratic Pres. candidate,0.580485779462395
-Gender_3. Other (2016),0.5510404181116905
-follow_political_info_5. Never,0.4942978364498659
-therm_liberals,0.4746336426684435
-VCF0886_1.   Increased,0.3993452388431532
-VCF9028_3. Other Pres. candidate,0.39055672344446996
+approve_pres_2. Disapprove,1.516499113613038
+Party_id3_1. Democrats (including leaners),1.044777768089978
+therm_DemParty,0.8999077056841454
+Party_id7_1. Strong Democrat,0.8988142479604633
+"approve_pres_strength_2. Approve, not strongly",0.868000568565144
+"approve_pres_strength_1. Approve, strongly",0.8019160226269468
+sex_orientation_3. Homosexual or gay (or lesbian),0.7631670245078119
+blackInfluence_Politics_3. Too little influence,0.7022605559791822
+religion_3. Jewish,0.7017845222113894
+VCF9028_1. Democratic Pres. candidate,0.5804860371729212
+Gender_3. Other (2016),0.5510644160715781
+follow_political_info_5. Never,0.4944244606844772
+therm_liberals,0.4746339523442532
+VCF0886_1.   Increased,0.39934451055411496
+VCF9028_3. Other Pres. candidate,0.39055665210108165

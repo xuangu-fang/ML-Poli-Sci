@@ -1,16 +1,16 @@
 feature,importance
-therm_DemParty,1.216035003004322
-"approve_pres_strength_2. Approve, not strongly",1.1382169550607086
-VCF9028_1. Democratic Pres. candidate,1.0051093292625555
-Party_id3_1. Democrats (including leaners),0.9603373744120679
-therm_liberals,0.7163966486325561
-therm_Mislims,0.7017856922832586
-"Race7_3. Asian or Pacific Islander, non-Hispanic (1966-2012)",0.6558159558906671
-howOftenTrust_5. Never,0.6226466052716744
-powerDifference_unmatched category,0.613557736168193
-Race3_2. Black non-Hispanic,0.608754369598326
-Race4_2. Black non-Hispanic,0.608754369598326
-Race7_2. Black non-Hispanic (1948-2012),0.608754369598326
-"VCF9030c_1. Yes, contact by Republican party",0.5910407035443573
-VCF0890_2.   Same,0.5784795490088857
-have_healthInsurance_1. Yes,0.5576314996576747
+therm_DemParty,1.2160424204336133
+"approve_pres_strength_2. Approve, not strongly",1.1383411404742885
+VCF9028_1. Democratic Pres. candidate,1.0052111472853391
+Party_id3_1. Democrats (including leaners),0.9603292150748647
+therm_liberals,0.716398919481147
+therm_Mislims,0.7017868254035535
+"Race7_3. Asian or Pacific Islander, non-Hispanic (1966-2012)",0.6557614044082383
+howOftenTrust_5. Never,0.6226267963286002
+powerDifference_unmatched category,0.6134725338281042
+Race3_2. Black non-Hispanic,0.6087086299226891
+Race4_2. Black non-Hispanic,0.6087086299226891
+Race7_2. Black non-Hispanic (1948-2012),0.6087086299226891
+"VCF9030c_1. Yes, contact by Republican party",0.5911167148731403
+VCF0890_2.   Same,0.5784012213966718
+have_healthInsurance_1. Yes,0.5576316708861195

@@ -1,11 +1,11 @@
 feature,importance
-therm_RepParty,-0.8399677218172243
-Party_id3_3. Republicans (including leaners),-0.07785866374076542
-volunteer_1. Yes,-0.021068788729931804
-VCF9028_2. Republican Pres. candidate,-0.007204986033662054
-VCF9029_1. Close race,-0.007139207820563316
-VCF0890_2.   Same,-0.001016762043609133
-VCF0130_4. A few times a year,-0.0007228449759098276
+therm_RepParty,-0.8399813866836873
+Party_id3_3. Republicans (including leaners),-0.07788796859506172
+volunteer_1. Yes,-0.021171406259424604
+VCF9028_2. Republican Pres. candidate,-0.007280459702853068
+VCF9029_1. Close race,-0.007213941774279359
+VCF0890_2.   Same,-0.0010208033762565635
+VCF0130_4. A few times a year,-0.0007329110091919492
 VCF9030a_2. No contact by major party,0.0
 "VCF9030_1. Yes, contact: Democratic party",0.0
 "VCF9030_2. Yes, contact: Republican party",0.0

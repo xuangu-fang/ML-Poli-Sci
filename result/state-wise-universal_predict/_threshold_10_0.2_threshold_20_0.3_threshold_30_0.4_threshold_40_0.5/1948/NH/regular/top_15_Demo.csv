@@ -1,16 +1,16 @@
 feature,importance
-therm_DemParty,0.6153699468967722
-Party_id3_1. Democrats (including leaners),0.590520378267584
-therm_hispanics,0.539777173810225
-Family_income_4. 68 to 95 percentile,0.4942197814070563
-therm_liberals,0.4904718490879566
-bisexalFamilyorFriends_1. Yes,0.47140300755813724
-satisfactionDemocracy_2. Fairly satisfied,0.42250895284934825
-VCF0890_1.   Increased,0.41864617953120103
-therm_Mislims,0.3027169859350253
-"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.28591040861393524
-"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.28591040861393524
-education7_6. BA level degrees,0.2710478073394539
-ideology7_5. Slightly conservative,0.20181008221691146
-VCF0886_1.   Increased,0.1829747706465499
-VCF0720_2. Yes,0.17961421848357914
+therm_DemParty,0.6152098969057634
+Party_id3_1. Democrats (including leaners),0.5912766961455365
+therm_hispanics,0.5399444185528753
+Family_income_4. 68 to 95 percentile,0.4945652849154031
+therm_liberals,0.4905449922555379
+bisexalFamilyorFriends_1. Yes,0.47204883877037485
+satisfactionDemocracy_2. Fairly satisfied,0.4228325782748771
+VCF0890_1.   Increased,0.41951307657593484
+therm_Mislims,0.30239695284857915
+"education7_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.2861338127304173
+"education6_2. 9-12 grades ('high school'), no diploma/equivalency; ; less than high school credential (2020)",0.2861338127304173
+education7_6. BA level degrees,0.27137076631989754
+ideology7_5. Slightly conservative,0.20216773244918512
+VCF0886_1.   Increased,0.18313020099027807
+VCF0720_2. Yes,0.17984495133140194

@@ -1,16 +1,16 @@
 feature,importance
-Party_id3_1. Democrats (including leaners),1.5823176121282425
-Party_id7_1. Strong Democrat,1.048762571256215
-therm_DemParty,0.9528488845255778
-approve_pres_2. Disapprove,0.8790128659915608
-howOftenTrust_2. Most of the time,0.8668065578293216
-VCF0890_1.   Increased,0.7628053203483615
-VCF9028_1. Democratic Pres. candidate,0.761672226675429
-blackInfluence_Politics_3. Too little influence,0.7078613113654761
-education7_7. Advanced degrees incl. LLB,0.6489853260216144
-VCF0130_5. Never (1990 and later: 'No' in filter),0.5861539230271939
-Family_income_3. 34 to 67 percentile,0.5662294222292896
-satisfactionDemocracy_2. Fairly satisfied,0.4698061181400971
-therm_Mislims,0.43419907179519707
-VCF9030_7. No contact,0.4119571311697431
-powerDifference_unmatched category,0.39623736280724536
+Party_id3_1. Democrats (including leaners),1.581745604034259
+Party_id7_1. Strong Democrat,1.0488519125560114
+therm_DemParty,0.9528729341307505
+approve_pres_2. Disapprove,0.8790296911977682
+howOftenTrust_2. Most of the time,0.8669582057498477
+VCF0890_1.   Increased,0.7626754801150193
+VCF9028_1. Democratic Pres. candidate,0.761746817396321
+blackInfluence_Politics_3. Too little influence,0.7078664151956332
+education7_7. Advanced degrees incl. LLB,0.6488947088035927
+VCF0130_5. Never (1990 and later: 'No' in filter),0.5858502860700463
+Family_income_3. 34 to 67 percentile,0.5662359544160923
+satisfactionDemocracy_2. Fairly satisfied,0.46996147832052915
+therm_Mislims,0.43420993945589625
+VCF9030_7. No contact,0.4116508388165506
+powerDifference_unmatched category,0.3961974628500841

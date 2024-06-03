@@ -1,16 +1,16 @@
 feature,importance
-therm_RepParty,-1.5222754379074925
-Will_PresElectionClose_1. Will win by quite a bit,-0.6341550347537221
-Party_id3_3. Republicans (including leaners),-0.632236181483772
-Party_id7_5. Independent - Republican,-0.5396816011378877
-VCF0719_1. No,-0.5330476661871907
-blackInfluence_Politics_2. Just about the right amount,-0.5005288102896018
-Family_income_4. 68 to 95 percentile,-0.484548703442394
-"VCF9030_2. Yes, contact: Republican party",-0.4424033897519034
-votingMakedifference_unmatched category,-0.3882891216145611
-"ideology7_4. Moderate, middle of the road",-0.36780961777524396
-satisfactionDemocracy_1. Very satisfied,-0.3227495438842355
-authoritarian4_1. Independence,-0.3160432559874262
-therm_Christians,-0.3113542507497567
-therm_Mislims,-0.30819255496651576
-"VCF0721_1. No (includes 'not asked for money' in 1966,1968)",-0.2919984545335181
+therm_RepParty,-1.5224726141343226
+Will_PresElectionClose_1. Will win by quite a bit,-0.6345290673183892
+Party_id3_3. Republicans (including leaners),-0.6321532374916965
+Party_id7_5. Independent - Republican,-0.5402971595560151
+VCF0719_1. No,-0.5335730849442768
+blackInfluence_Politics_2. Just about the right amount,-0.5007364334006439
+Family_income_4. 68 to 95 percentile,-0.4844599959813463
+"VCF9030_2. Yes, contact: Republican party",-0.44258004913379806
+votingMakedifference_unmatched category,-0.38876778739368356
+"ideology7_4. Moderate, middle of the road",-0.3680006957582821
+satisfactionDemocracy_1. Very satisfied,-0.32237599611235557
+authoritarian4_1. Independence,-0.3169877567757687
+therm_Christians,-0.31163894933320285
+therm_Mislims,-0.3082803861903165
+"VCF0721_1. No (includes 'not asked for money' in 1966,1968)",-0.2922370894266909
