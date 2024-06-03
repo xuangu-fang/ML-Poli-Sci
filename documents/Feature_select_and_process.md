@@ -42,9 +42,9 @@ Based on these criteria, we select 11 numerical features and 48 categorical feat
 ##### Step 3: Processing Features
 We process the selected features to ensure consistency and comparability across the dataset:
 
-- **Standardization (Numerical Features)**: We apply standardization to numerical features, which involves scaling the data so that it has a mean of zero and a standard deviation of one. This process is essential because it neutralizes the scale of different features, allowing for a fair comparison and combination within models. It also enhances the stability and performance of many machine learning algorithms that are sensitive to the scale of input data.
+- **Standardization (Numerical Features)**: We apply standardization to numerical features [1], which involves scaling the data so that it has a mean of zero and a standard deviation of one. This process is essential because it neutralizes the scale of different features, allowing for a fair comparison and combination within models. It also enhances the stability and performance of many machine learning algorithms that are sensitive to the scale of input data.
 
-- **One-Hot Encoding (Categorical Features)**: For categorical features, we convert them into a set of binary features through one-hot encoding. This method transforms each categorical level into a new binary variable, representing the presence (1) or absence (0) of each category. This encoding is crucial for handling non-numeric data, enabling it to be effectively included in mathematical models and ensuring that the algorithm treats each category as a separate entity without any ordinal relationship.
+- **One-Hot Encoding (Categorical Features)**: For categorical features, we convert them into a set of binary features through one-hot encoding[2]. This method transforms each categorical level into a new binary variable, representing the presence (1) or absence (0) of each category. This encoding is crucial for handling non-numeric data, enabling it to be effectively included in mathematical models and ensuring that the algorithm treats each category as a separate entity without any ordinal relationship.
 
 ##### Step 4: Imputation of Missing Values
 The final step involves handling the remaining missing values in our dataset tailored to the type of processing applied to each feature:
@@ -54,3 +54,11 @@ The final step involves handling the remaining missing values in our dataset tai
 - **Categorical Features**: For categorical features, we treat missing values as a new category. This approach acknowledges the possibility that missingness itself might be informative and ensures that no data is discarded. After categorization, we apply one-hot encoding to these newly created classes as well.
 
 Through these systematic steps, we effectively manage the presence of missing values while preserving and enhancing the integrity and usability of our data for robust political science modeling.
+
+
+Reference:
+
+[1]: Zheng, Alice, and Amanda Casari. Feature engineering for machine learning: principles and techniques for data scientists. " O'Reilly Media, Inc.", 2018.
+
+[2]: Seger, Cedric. "An investigation of categorical variable encoding techniques in machine learning: binary versus one-hot and feature hashing." (2018).
+
