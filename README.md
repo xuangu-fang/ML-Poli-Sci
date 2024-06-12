@@ -9,6 +9,9 @@ Missing value imputation-sklearn:https://scikit-learn.org/stable/modules/impute.
 
 ## log
 
+2024/6/11
+- add justifications for the threshold of the missing value ratio
+
 - 2024/4/18-5/30:
    - add variables: VCF0006a” or “Unique Respondent Number (Cross-year ID for panel cases), voter/non-voter, vote_D/vote_R to the state-wise prediction results:
         - VCF0006a: done
@@ -20,9 +23,9 @@ Missing value imputation-sklearn:https://scikit-learn.org/stable/modules/impute.
    - add the citation of the ML term in documents
         - done
    - clean the code, make it:
-        - script-run for new data test (apply curent model to new data)
+        - script-run for new data test (apply curent model to new data) - doing
         - script-run for new data training (model update)
-        - visulization and store results script
+        - visulization and store results script -done
 
 
 - 2024/4/11:

@@ -57,7 +57,7 @@ def missing_value_analysis(data):
     missing_value.columns = ['missing_value_num', 'missing_value_percentage',
                                 'missing_value_percentage_10(>=2012)', 'missing_value_percentage_20(>=2002)',
                                 'missing_value_percentage_30(>=1992)', 'missing_value_percentage_40(>=1982)',
-                                'missing_value_percentage_50(>=1972)', 'missing_value_percentage_60(>=1962)', 'missing_value_percentage_60(>=1952)']
+                                'missing_value_percentage_50(>=1972)', 'missing_value_percentage_60(>=1962)', 'missing_value_percentage_70(>=1952)']
 
     # sort the result by missing value percentage
     missing_value = missing_value.sort_values(by='missing_value_percentage', ascending=False)
