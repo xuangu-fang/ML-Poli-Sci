@@ -1,0 +1,16 @@
+feature,importance
+blackInfluence_Politics_3. Too little influence,1.224135132231376
+Party_id7_1. Strong Democrat,0.8260486517384384
+therm_DemParty,0.7823765021111463
+Party_id3_1. Democrats (including leaners),0.656907151446184
+Race7_2. Black non-Hispanic (1948-2012),0.5098849062442472
+Race3_2. Black non-Hispanic,0.5098849062442472
+Race4_2. Black non-Hispanic,0.5098849062442472
+"approve_pres_strength_4. Disapprove, strongly",0.4789567297789635
+therm_Blacks,0.4638341996459953
+approve_pres_2. Disapprove,0.4208986407094069
+therm_liberals,0.3902559478498479
+Will_PresElectionClose_2. Close race,0.3665205109155036
+VCF0890_1.   Increased,0.29155262273046406
+VCF0130_5. Never (1990 and later: 'No' in filter),0.277768282164939
+living_withFamily_1. Yes,0.2581886807476139

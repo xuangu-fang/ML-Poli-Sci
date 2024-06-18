@@ -12,9 +12,9 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score, roc_auc_score
 from sklearn.model_selection import KFold
 
-from imblearn.over_sampling import SMOTE
-from imblearn.pipeline import make_pipeline
-from imblearn.under_sampling import RandomUnderSampler
+# from imblearn.over_sampling import SMOTE
+# from imblearn.pipeline import make_pipeline
+# from imblearn.under_sampling import RandomUnderSampler
 from transfer_learn import TCA
 
 def missing_value_analysis(data):

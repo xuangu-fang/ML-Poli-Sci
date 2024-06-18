@@ -1,0 +1,16 @@
+feature,importance
+therm_RepParty,-0.8172015081684505
+Party_id3_3. Republicans (including leaners),-0.0566633324616157
+volunteer_1. Yes,-0.010204746323136655
+VCF9028_2. Republican Pres. candidate,-0.00318532493261482
+VCF9029_1. Close race,-0.00318532493261482
+VCF0130_4. A few times a year,-0.0007176630352205139
+"approve_pres_strength_3. Disapprove, not strongly",0.0
+VCF9030a_2. No contact by major party,0.0
+"VCF9030_1. Yes, contact: Democratic party",0.0
+"VCF9030_2. Yes, contact: Republican party",0.0
+"VCF9030_3. Yes, contact: both major parties",0.0
+VCF9030_7. No contact,0.0
+Family_income_1. 0 to 16 percentile,0.0
+"VCF9030a_1. Yes, contact by major party",0.0
+Family_income_2. 17 to 33 percentile,0.0
