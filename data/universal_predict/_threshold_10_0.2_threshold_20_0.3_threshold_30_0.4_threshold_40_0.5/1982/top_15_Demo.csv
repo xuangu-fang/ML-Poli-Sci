@@ -1,16 +1,16 @@
 feature,importance
-therm_DemParty,1.3506212471757553
-Party_id3_1. Democrats (including leaners),0.800950654257177
-sex_orientation_3. Homosexual or gay (or lesbian),0.7581130711143589
-blackInfluence_Politics_3. Too little influence,0.719439815750864
-follow_political_info_5. Never,0.6358858913195542
-therm_liberals,0.6351681862821816
-Gender_3. Other (2016),0.5748393933197522
-Party_id7_1. Strong Democrat,0.562716271185214
-education6_1. 8 grades or less ('grade school'),0.5224392991235305
-education7_1. 8 grades or less ('grade school'),0.5224392991235305
-VCF0886_1.   Increased,0.3673893362647761
-Party_id7_3. Independent - Democrat,0.3559172484939496
-ideology7_1. Extremely liberal,0.3337464893080797
-votingMakedifference_5. Can make a big difference,0.2988745496417537
-education7_7. Advanced degrees incl. LLB,0.2964636637812052
+therm_DemParty,1.350621587625031
+Party_id3_1. Democrats (including leaners),0.8008939937046179
+sex_orientation_3. Homosexual or gay (or lesbian),0.7580805004040039
+blackInfluence_Politics_3. Too little influence,0.7193556508665768
+follow_political_info_5. Never,0.6358863049581371
+therm_liberals,0.6351685197708796
+Gender_3. Other (2016),0.5748784928438277
+Party_id7_1. Strong Democrat,0.5627033085850308
+education6_1. 8 grades or less ('grade school'),0.5224445254900049
+education7_1. 8 grades or less ('grade school'),0.5224445254900049
+VCF0886_1.   Increased,0.36736281673612564
+Party_id7_3. Independent - Democrat,0.35590394172074374
+ideology7_1. Extremely liberal,0.33369855621199607
+votingMakedifference_5. Can make a big difference,0.29875934177494423
+education7_7. Advanced degrees incl. LLB,0.29623690678545916

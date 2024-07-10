@@ -7,11 +7,15 @@ After selecting relevant features based on domain knowledge and missing ratios, 
 1. **Evaluating Feasibility and Distribution**: The PCA visualization helps us determine if samples from different domains are distinguishable and whether they follow similar distributions. Understanding this is crucial for assessing the challenges of applying a model trained on the source domain directly to the target domain.
 2. **Simplifying Data Complexity**: By reducing the data to two dimensions, PCA allows us to clearly view the data structure and identify potential patterns that might not be visible in higher-dimensional spaces.
 
-The visualization results are shown in Figure 1.
+The visualization results are shown in Figure 1(whole samples) and Figure 2(samples in WA).
 
 ![PCA on the first two components-raw feature](PCA_raw-new.png)
+*Figure1: PCA on the first two components-raw feature(all samples)*
 
-In Figure 1, the red points represent Vote-D samples, blue points represent Vote-R samples, and green points represent non-voter samples. 
+![PCA on the first two components-raw feature](PCA_raw-new-WA.png)
+*Figure2: PCA on the first two components-raw feature(samples in WA)*
+
+In Figure 1 and 2, the red points represent Vote-R samples, blue points represent Vote-D samples, and green points represent non-voter samples. 
 
 ### Step 2: Insights and Model Selection
 From the PCA results, several insights can be drawn:
@@ -27,11 +31,15 @@ To address the distribution differences and potential bias identified in Step 2,
 2. **Learning a Shared Subspace**: In the higher-dimensional space, TCA identifies the most informative directions (components) that reduce the distribution disparity between the two domains. This is done by maximizing the similarity of source and target data distributions in the new subspace.
 3. **Dimensionality Reduction**: TCA projects the data onto these learned components, reducing dimensionality while focusing on the most relevant features for both domains.
 
-We visualized the samples after TCA feature transformation using PCA (Figure 2). 
+We visualized the samples after TCA feature transformation using PCA in Figure 3 (all samples)  and 4(samples in WA)
 
 ![PCA on the first two components-TCA feature](PCA_TCA-new.png)
+*Figure3: PCA on the first two components-TCA feature(all samples)*
 
-In Figure 2, the red points represent Vote-D samples, blue points represent Vote-R samples, and green points represent non-voter samples. The visualization shows that the heterogeneity between voter and non-voter samples is significantly improved. 
+![PCA on the first two components-TCA feature](PCA_TCA-new-WA.png)
+*Figure4: PCA on the first two components-TCA feature(samples in WA)*
+
+In Figure 3 and 4, the red points represent Vote-D samples, blue points represent Vote-R samples, and green points represent non-voter samples. The visualization shows that the heterogeneity between voter and non-voter samples is significantly improved. 
 
 ### Conclusion
 Our methodology effectively combines PCA, logistic regression with elastic net regularization, and TCA to tackle the challenges of cross-domain binary classification. Each step is designed to address specific issues related to distribution disparity and feature alignment, enhancing the overall prediction accuracy of the model across different domains. By strategically integrating these techniques, we create a robust framework for predicting voting behavior in politically diverse settings. This approach ensures that our model not only predicts accurately but also adapts effectively to different data distributions.

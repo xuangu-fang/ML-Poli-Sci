@@ -121,6 +121,8 @@ index_vote_R = data_train[data_train['Voted_D_R'] == 2].index
 
 scatter_size = 7
 
+# make new figure
+plt.figure()
 plt.scatter(Xs_new_pca[index_vote_D,0], Xs_new_pca[index_vote_D,1], c='b', label='voter-D', marker='o', alpha=0.5, s=scatter_size)
 plt.scatter(Xs_new_pca[index_vote_R,0], Xs_new_pca[index_vote_R,1], c='r', label='voter-R', marker='x', alpha=0.5, s=scatter_size)
 
@@ -135,8 +137,11 @@ plt.title('PCA on the first two components-TCA feature')
 plt.legend()
 
 # save the figure
-# plt.savefig(folder_name + 'PCA_TCA_diff.png')
-plt.savefig(folder_name + 'PCA_TCA-new.png')
+plt.savefig(folder_name + 'PCA_TCA_diff.png')
+# plt.savefig(folder_name + 'PCA_TCA-new-WA.png')
+
+# make new figure
+plt.figure()
 
 plt.scatter(Xs_raw_pca[index_vote_D,0], Xs_raw_pca[index_vote_D,1], c='b', label='voter-D', marker='o', alpha=0.5, s=scatter_size)
 plt.scatter(Xs_raw_pca[index_vote_R,0], Xs_raw_pca[index_vote_R,1], c='r', label='voter-R', marker='x', alpha=0.5, s=scatter_size)
@@ -149,5 +154,5 @@ plt.title('PCA on the first two components-raw feature')
 plt.legend()
 
 
-# plt.savefig(folder_name + 'PCA_raw_diff.png')
-plt.savefig(folder_name + 'PCA_raw-new.png')
+plt.savefig(folder_name + 'PCA_raw_diff.png')
+# plt.savefig(folder_name + 'PCA_raw-new-WA.png')
