@@ -9,7 +9,7 @@ After selecting relevant features based on domain knowledge and missing ratios, 
 
 The visualization results are shown in Figure 1.
 
-![PCA on the first two components-raw feature](PCA-raw-feature.png)
+![PCA on the first two components-raw feature](PCA_raw-new.png)
 
 In Figure 1, the red points represent Vote-D samples, blue points represent Vote-R samples, and green points represent non-voter samples. 
 
@@ -29,7 +29,7 @@ To address the distribution differences and potential bias identified in Step 2,
 
 We visualized the samples after TCA feature transformation using PCA (Figure 2). 
 
-![PCA on the first two components-TCA feature](PCA-TCA-feature.png)
+![PCA on the first two components-TCA feature](PCA_TCA-new.png)
 
 In Figure 2, the red points represent Vote-D samples, blue points represent Vote-R samples, and green points represent non-voter samples. The visualization shows that the heterogeneity between voter and non-voter samples is significantly improved. 
 
