@@ -10,9 +10,11 @@ After selecting relevant features based on domain knowledge and missing ratios, 
 The visualization results are shown in Figure 1(whole samples) and Figure 2(samples in WA).
 
 ![PCA on the first two components-raw feature](PCA_raw.png)
+
 *Figure1: PCA on the first two components-raw feature(all samples)*
 
 ![PCA on the first two components-raw feature](PCA_raw-WA.png)
+
 *Figure2: PCA on the first two components-raw feature(samples in WA)*
 
 In Figure 1 and 2, the red points represent Vote-R samples, blue points represent Vote-D samples, and green points represent non-voter samples. 
