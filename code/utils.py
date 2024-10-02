@@ -131,10 +131,14 @@ def feature_type_analysis(data_new, used_features, non_feature_list):
 
         if feature not in non_feature_list:
 
-            if len(data_new[feature].value_counts()) > 10:
-                numerical_feature_list.append(feature)
-            else:
+            if feature == 'State':
                 categorical_feature_list.append(feature)
+            else:
+
+                if len(data_new[feature].value_counts()) > 10:
+                    numerical_feature_list.append(feature)
+                else:
+                    categorical_feature_list.append(feature)
 
     print('number of numerical features: ', len(numerical_feature_list))
 
@@ -231,14 +235,20 @@ def custom_combiner(feature, category):
 def get_feature_name_category_name(string, enc, value_label_dict):
     # feature_id = int(string.split('_XX_')[0][1:])
     feature_name = string.split('_XX_')[0]
-    category_index = float(string.split('_XX_')[1])
+
+    if feature_name != 'State':
+
+        category_index = float(string.split('_XX_')[1])
+        
+        if category_index == -1:
+            category_name = 'Missing'
+        elif category_index not in value_label_dict[feature_name].keys():
+            category_name = 'unmatched category'
+        else: 
+            category_name = value_label_dict[feature_name][category_index]
     
-    if category_index == -1:
-        category_name = 'Missing'
-    elif category_index not in value_label_dict[feature_name].keys():
-        category_name = 'unmatched category'
-    else: 
-        category_name = value_label_dict[feature_name][category_index]
+    else:
+        category_name = string.split('_XX_')[1]
 
     return feature_name, category_name
 
