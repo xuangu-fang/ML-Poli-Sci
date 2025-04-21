@@ -37,7 +37,7 @@ To ensure the robustness of our model, we adopt criteria that prioritize feature
 - Less than 40% missing in the last 30 years
 - Less than 50% missing in the last 40 years
 
-Based on these criteria, we select 11 numerical features and 48 categorical features for modeling. The detailed list of these features is available at: https://github.com/xuangu-fang/ML-Poli-Sci/blob/master/data/universal_predict/_threshold_10_0.2_threshold_20_0.3_threshold_30_0.4_threshold_40_0.5/used_features.txt.
+Based on these criteria, we select 12 numerical features and 52 categorical features for modeling. The detailed list of these features is available at [here](https://github.com/xuangu-fang/ML-Poli-Sci/blob/master/result/state-wise-universal_predict-add-year/_threshold_10_0.2_threshold_20_0.3_threshold_30_0.4_threshold_40_0.5/used_features.txt).
 
 ##### Step 3: Processing Features
 We process the selected features to ensure consistency and comparability across the dataset:
